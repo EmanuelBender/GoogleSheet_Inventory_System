@@ -18,7 +18,7 @@ especially in conjunction with SMD containers. However, the flexibility of the s
 allows adaptation for various applications beyond this scope.<br>
 <br>
 Feel free to customize and explore how this project can best serve your organizational needs. <br>
-The intention is to provide a hassle-free and adaptable solution for efficient project management.
+The intention is to provide a hassle-free and adaptable solution for efficient inventory management.
 </p>
 <br>
 <p align="center">
@@ -60,9 +60,10 @@ The intention is to provide a hassle-free and adaptable solution for efficient p
   </tr>
   <tr>
     <td>
-      On the OVERVIEW sheet any row entry can be edited, and will update the INVENTORY sheet. <br> 
+      On the OVERVIEW sheet any row entry of a current search can be edited, and will update the INVENTORY sheet. <br> 
       I found this very intuitive. <br>
-      On the PROFILES sheet only Amount and ID need to be filled in. (faster)
+      On the PROFILES sheet only Amount and ID need to be filled in. (faster) <br>
+      New items need to be manually entered once on the INVENTORY sheet. Can then be updated by build or invoice. 
    </td>
   </tr>
 
@@ -70,7 +71,9 @@ The intention is to provide a hassle-free and adaptable solution for efficient p
      <th>Sidebar (Shopping list or Stats)</th>
   </tr>
   <tr>
-    <td>Buttons on the nav bar will pull up the shopping list or the sheet stats sidebar.</td>
+    <td>Auto Shopping List: Low or marked items <br>
+        Sidebar: Stats and graphs for total items, costs, profiles, builds, ...
+</td>
   </tr>
 </table>
 
@@ -206,6 +209,7 @@ OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, setti
 - Auto detect new file in Invoice folder > auto convert exel to csv   <br>
 - Detect more stores (only works with stores that have const product IDs)  <br>
 - create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile <br>
+- auto import and sort unknown new items. (from invoice?)
 
 </p>
 
