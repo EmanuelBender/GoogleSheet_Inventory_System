@@ -3,8 +3,8 @@
 <p align="center"><em>by eBender</em></p>
 
 
-<p align="center" font-size="10px">A semi-automated inventory system for Google Sheets (Apps Script)<br>
-<b>⚠️ This project is in development </b><br>
+<p align="center" font-size="10px"><b>A semi-automated inventory system for Google Sheets (Apps Script)</b><br>
+⚠️ In development, functional. <br>
 <!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
 </br>
