@@ -36,9 +36,8 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>
-       The search box can act like a item search, but can also trigger profile mode and display other information. <br>
-       Custom Search algo. Multiple, partial keywords will be found. <br>
-       Entering a Profile will switch sheet into Profile Mode. </br>
+       Powerful search box for item lookup, triggering profile mode, and displaying relevant information. <br>
+       Custom search algorithm supports multiple partial keywords for comprehensive results. </br>
    </td>
   </tr>
 
@@ -46,7 +45,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
     <th>Automatic Invoice Import</th>
   </tr>
   <tr>
-    <td> Supports Mouser & LCSC invoices. <br>
+    <td> Supports Mouser & LCSC invoices as .csv files. <br>
          Sheet auto detects store, date, existing items and adds new Items into sheet.  </br>
     </td>
   </tr>
