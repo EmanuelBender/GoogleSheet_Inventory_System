@@ -17,15 +17,15 @@ Build = a 'built' Profile
 **Fast Keyword Search**  
 The search box can act like a file search, but can also search profiles and other information.  
 
-**Automatic Invoice Import:**  
-Supports Mouser & LCSC platforms.  
+**Semi-Automatic Invoice Import:**  
+Supports Mouser & LCSC invoices.  
 
 **Build Profile (PROFILES sheet):**  
 Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  
 Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  
 
 **Automatic Shopping List:**  
-Generated via a button on the nav corner. Almost empty items are detected (enter your minimum inventory nr on item row)  
+Generated via a button on the nav corner. Almost empty items are detected (enter your low inventory number on item row)  
 
 **Stats:**  
 Costs, Amounts, Graphs, etc .. Generated via a button on the nav corner.  
@@ -55,21 +55,24 @@ Feature: Check emails for orders, then import that order/invoice automatically o
 
 ## Getting Started
 
-**Installation:**  
+**1. Installation:**  
 Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  
 Enter items into your INVENTORY sheet (all info).  
 
-**Build Profile:**  
+**2. Build Profile:**  
 Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  
 Find your Profile via the search bar.  
 Click the BUILD PROFILE button and follow prompts.  
 
-**Inject Invoice:**  
-Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button.  
-Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')  
-Click inject Invoice on OVERVIEW sheet.  
+**3. Inject Invoice:**  
+Create a folder in Google Drive, enter folder name in Main Functions.js  
+Download invoices as csv ! (LCSC uses exel > solution: import into empty sheet > export as .csv)  
+Place invoices inside, and trigger via the Inject Order button.  
+Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work.  
+(Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')  
 
-**Shopping List:**  
+
+**4. Shopping List:**  
 The list is created according to the following criteria:  
 Shopping list tick box and low inventory amount on each Item row.  
 This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory.  
