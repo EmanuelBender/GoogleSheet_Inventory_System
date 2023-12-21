@@ -1,251 +1,152 @@
-<h1 align="center">GoogleSheet SMD/PCB Inventory System</h1>
+# GoogleSheet SMD/PCB Inventory System
 
-<p align="center"><em>by eBender</em></p>
+**by eBender**
 
+A simplified Google Sheets inventory system designed for Surface Mount Device (SMD) and Printed Circuit Board (PCB) projects.
 
-<p align="center" font-size="10px"><b>A semi-automated inventory system for Google Sheets (Apps Script)</b><br>
-⚠️ In development, functional. <br>
-<!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
-</p>
-</br>
+⚠️ **Work in Progress - Functional** ⚠️
 
-<span>
-This project is designed with simplicity and minimal maintenance in mind. <br>
-The primary goal is to streamline usage, allowing you to interact with it as little as possible. <br>
-Once the initial setup is complete, all management tasks are efficiently handled through the Overview sheet.<br>
-<br>
-I personally employ this system for organizing Surface Mount Device (SMD) items and Printed Circuit Board (PCB) projects,
-especially in conjunction with SMD containers. However, the flexibility of the structure 
-allows adaptation for various applications beyond this scope.<br>
-<br>
-Feel free to customize and explore how this project can best serve your organizational needs. <br>
-The intention is to provide a hassle-free and adaptable solution for efficient inventory management.
-</span>
+## Key Features
 
-<br>
-<br>
-<br>
-<p align="center" size="16">
->> <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">Template Inventory Sheet</a> <<
-</p>
+### Overview
 
-### Key Features
+- **Main Interaction Sheet:** Perform most tasks from here.
+- **Inventory:** Store all items.
+- **Profiles:** Store all profiles.
+- **Builds:** Log built profiles, also recorded in the Logs sheet.
+- **Logs:** Record changes and actions; can be triggered.
 
-<span>
-Item = one item with a unique ID   <br>
-Profile = a collection of items   <br>
-Build = a 'built' Profile (removes items, logs change, stats)  <br>
+### Interaction Flow
 
-<!-- ( Project = a collection of Profiles )   <br> -->
-<br>
-</span>
+1. **Overview:**
+   - Main hub for tasks.
+   - Edit entries instantly on the Inventory sheet.
+   - Create and build profiles on the Profiles sheet.
+   - Trigger builds and log actions on the Builds and Logs sheets.
 
-<table>
-  <tr>
-    <th>Keyword Search</th>
-  </tr>
-  <tr>
-    <td>
-       Powerful search box for item lookup, triggering profile mode, and displaying relevant information. <br>
-       Custom search algorithm supports multiple partial keywords for comprehensive results. </br>
-   </td>
-  </tr>
+2. **Inventory:**
+   - Contains all inventory items.
 
-  <tr>
-    <th>Automatic Invoice Import</th>
-  </tr>
-  <tr>
-    <td> Supports Mouser & LCSC invoices as .csv files. <br>
-         Sheet auto detects store, date, existing items and adds new Items into sheet.  </br>
-    </td>
-  </tr>
+3. **Profiles:**
+   - Stores all profiles.
 
-  <tr>
-    <th>Profiles & Builds</th>
-  </tr>
-  <tr>
-    <td>Profile building subtracts components from the INVENTORY sheet, providing a cost, stats, and success report.  </br>
-        Adds the Build to the BUILDS sheet with a corresponding Log entry in LOGS.   </br>
-  </tr>
+4. **Builds:**
+   - Logs built profiles.
+   - Corresponding entries in the Logs sheet.
 
-  <tr>
-    <th>Editing</th>
-  </tr>
-  <tr>
-    <td>
-      On the OVERVIEW sheet, edit any row entry from a current search, instantly updating the INVENTORY sheet. <br>
-      PROFILES sheet requires only Amount and ID, speeding up the editing process. <br>
-      New items entered manually once on the INVENTORY sheet can be efficiently updated via builds or invoices.  </br>
-   </td>
-  </tr>
+5. **Logs:**
+   - Records changes and actions.
+   - Triggered actions documented.
 
-  <tr>
-     <th>Sidebar (Shopping list or Stats)</th>
-  </tr>
-  <tr>
-    <td>Shopping List: low or marked items. <br>
-        Stats: Statistics and graphs for total items, costs, profiles, builds, ... </br>
-</td>
-  </tr>
-</table>
+## Key Features
 
-<br>
+- **Keyword Search:**
+  - Powerful search box for item lookup.
+  - Custom search algorithm supports multiple partial keywords for comprehensive results.
 
-### Utility Features
+- **Automatic Invoice Import:**
+  - Supports Mouser & LCSC invoices as .csv files.
+  - Sheet auto-detects store, date, existing items, and adds new items into the sheet.
 
-<table>
+- **Profiles & Builds:**
+  - Profile building subtracts components from the Inventory sheet, providing a cost, stats, and success report.
+  - Adds the Build to the Builds sheet with a corresponding Log entry in Logs.
 
-  <tr>
-     <th>Console Monitor</th>
-  </tr>
-  <tr>
-    <td>Displays information, errors, and progress.  </td>
-  </tr>
+- **Editing:**
+  - On the Overview sheet, edit any row entry from a current search, instantly updating the Inventory sheet.
+  - Profiles sheet requires only Amount and ID, speeding up the editing process.
+  - New items entered manually on the Inventory sheet can be efficiently updated via builds or invoices.
 
-  <tr>
-     <th>Toggle Groups</th>
-  </tr>
-  <tr>
-    <td>There are groups on each sheet that can be expanded and closed with either a button on the OVERVIEW sheet or individually on the INVENTORY, BUILDS, etc. sheet.</td>
-  </tr>
+- **Sidebar (Shopping list or Stats):**
+  - Shopping List: low or marked items.
+  - Stats: Statistics and graphs for total items, costs, profiles, builds, ...
 
-  <tr>
-     <th>Daily Logging</th>
-  </tr>
-  <tr>
-    <td>Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.</td>
-  </tr>
+## Utility Features
 
-</table>
+- **Console Monitor:**
+  - Displays information, errors, and progress.
 
----
+- **Toggle Groups:**
+  - Groups on each sheet can be expanded and closed with either a button on the Overview sheet or individually on the Inventory, Builds, etc. sheet.
 
-### Getting Started / How to:
+- **Daily Logging:**
+  - Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.
 
-<span>
-<b>Sheets:</b><br>
-OVERVIEW = Main hub for search and tasks. <br>
-&nbsp;&nbsp;  - Edit search entries sheetwide. <br>
-&nbsp;&nbsp;  - Trigger build, shopping list and stats. <br>
-INVENTORY = Store all inventory items. <br>
-PROFILES = Store all profiles. <br>
-BUILDS = Log for built profiles. <br>
-LOGS = Records changes and actions. Logging can be triggered.  <br>
-<br>
-</span>
+## Getting Started / How to:
 
-<table>
-  <tr colspan="3">
-      <th colspan="3">1. Copy sheet & enter Items</th>
-  </tr>
-  <tr>
-    <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> to your Google Drive.    </td>     
-    <td>Add dayily time-driven trigger: Extensions > AppsScript > Add Trigger > logSheetsDaily()<br> 
-    <td>Enter your items into your INVENTORY sheet incl. all info.
-        Create profiles by entering item ID and amount on the PROFILES sheet. </td>
-  </tr>
+### Sheets:
 
-  <tr colspan="3">
-      <th colspan="3">2. Enter Profiles</th>
-  </tr>
-  <tr>
-    <td>Create a profile by adding a header (profile name) and entering only ID and amount of each item on the PROFILES sheet.  </td>
-    <td>Enter your Profile name via the search bar to switch to Profile mode. </td>
-    <td> Click the BUILD PROFILE button, follow prompts, and physically assemble your profile using specified components. </td>
-  </tr>
+- **Overview:** Main hub for search and tasks.
+  - Edit search entries sheetwide.
+  - Trigger build, shopping list, and stats.
 
-  <tr colspan="3">
-     <th colspan="3">3. Import Invoice Items</th>
-  </tr>
-  <tr>
-    <td>Create a folder in Google Drive, specify folder name in 'Main Functions.gs'. Place invoices inside, and trigger via the Inject Order button. </td>  
-    <td>Ensure items exist in the INVENTORY sheet with matching IDs as on the invoice (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number').   </td>
-    <td>Click the Inject Order button.    </td>
-  </tr>
+- **Inventory:** Store all inventory items.
+- **Profiles:** Store all profiles.
+- **Builds:** Log for built profiles.
+- **Logs:** Records changes and actions. Logging can be triggered.
 
-  <tr colspan="3">
-    <th colspan="3">4. Shopping List</th>
-  </tr>
-  <tr>
-    <td>Generate the list based on item amount, low inventory amount, and shopping tick box criteria. </td>  
-    <td>Set shopping tick box and low inventory amount for each item.  </td>  
-    <td>Click the Shopping List button to view your shopping list. </td>  
-  </tr>
-</table>
+### Steps:
 
-<br>
+1. **Copy Sheet & Enter Items:**
+   - Copy the [template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY) to your Google Drive.
+   - Add daily time-driven trigger: Extensions > AppsScript > Add Trigger > logSheetsDaily().
+   - Enter your items into your Inventory sheet, including all info.
+   - Create profiles by entering item ID and amount on the Profiles sheet.
 
-<table>
-  <tr colspan="3">
-    <th colspan="3">Manual upkeep</th>
-  </tr>
-  <tr colspan="3">
-    <td>put new invoice into Folder > click inject order </td>
-    <td>manually remove individual item amounts via search, when not using 'Build Profile'  </td>
-    <td>updating profiles  </td>
-  </tr>
-</table>
+2. **Enter Profiles:**
+   - Create a profile by adding a header (profile name) and entering only ID and amount of each item on the Profiles sheet.
+   - Enter your Profile name via the search bar to switch to Profile mode.
+   - Click the BUILD PROFILE button, follow prompts, and physically assemble your profile using specified components.
 
-<br>
+3. **Import Invoice Items:**
+   - Create a folder in Google Drive, specify folder name in 'Main Functions.gs'.
+   - Place invoices inside, and trigger via the Inject Order button.
+   - Ensure items exist in the Inventory sheet with matching IDs as on the invoice (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number').
+   - Click the Inject Order button.
 
----
+4. **Shopping List:**
+   - Generate the list based on item amount, low inventory amount, and shopping tick box criteria.
+   - Set shopping tick box and low inventory amount for each item.
+   - Click the Shopping List button to view your shopping list.
 
-### Disclaimer & Handicaps
+### Manual Upkeep:
 
-<p>
-- if wanted: Daily logging trigger has to be added after copying template <br>
-- SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
-- user has to allow access <br>
-- Invoice inject only works for LCSC and Mouser. <br>
-- There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
-</p>
+- Put a new invoice into the folder > click inject order.
+- Manually remove individual item amounts via search when not using 'Build Profile'.
+- Updating profiles.
 
----
+## Disclaimer & Handicaps
 
-### DEV
+- If wanted: Daily logging trigger has to be added after copying the template.
+- SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with the template).
+- User has to allow access.
+- Invoice inject only works for LCSC and Mouser.
+- Some extra functions for creating profiles are not 100% bug-free yet and might be making it too complicated to use.
 
-<p>
-OVERVIEW Sheet top right corner > DEV overview (global variables, errors, settings) <br>
-- fn:  <br>
-- arm:     sheet can be disarmed for testing ( all volatile actions deactivated ) <br>
-- grp:     used by code<br>
-- errors:  if cells have errors, they appear here <br>
-<br>
-<a href="https://docs.google.com/spreadsheets/d/1myUQEsA9oBNqigG8VdQnsoAnKoohFrl_wG5S7znHjAk/edit?usp=sharing">SheetSizeAuditTool</a>
-</p>
-<br>
+## DEV
 
----
+- **Overview Sheet:** Top right corner > DEV overview (global variables, errors, settings).
+  - fn:
+  - arm: sheet can be disarmed for testing (all volatile actions deactivated).
+  - grp: used by code.
+  - errors: if cells have errors, they appear here.
 
-### Future
+- [SheetSizeAuditTool](https://docs.google.com/spreadsheets/d/1myUQEsA9oBNqigG8VdQnsoAnKoohFrl_wG5S7znHjAk/edit?usp=sharing)
 
-<p>
-- Auto detect and import Invoices from email  <br>
-- Auto detect new file in Invoice folder > auto convert exel to csv   <br>
-- Detect more stores (only works with stores that have const product IDs)  <br>
-- create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile <br>
-- auto import and sort unknown new items. (from invoice?) <br>
-- data entry helper > new unknown items data entry prompt, multiple items at once > update and sort when done <br>
-- Projects: build a collection of Profiles (some parts already implemented, might take out) <br>
+## Future
 
-</p>
+- Auto-detect and import Invoices from email.
+- Auto-detect new files in the Invoice folder > auto-convert Excel to CSV.
+- Detect more stores (only works with stores that have const product IDs).
+- Create PCBway/Aisler/JLCPCB integration > auto-create Profile from PCB manufacturer invoice and/or BOM > auto-build profile.
+- Auto-import and sort unknown new items. (from invoice?)
+- Data entry helper > new unknown items data entry prompt, multiple items at once > update and sort when done.
+- Projects: build a collection of Profiles (some parts already implemented, might take out).
 
+## Contributing
 
----
+- Guidelines: To be continued...
 
-### Contributing
+## License
 
-<table align="center">
-  <tr>
-    <th>Guidelines</th>
-  </tr>
-  <tr>
-    <td>to be continued...</td>
-  </tr>
-</table>
-
----
-
-### License
-
-<p>Private Use. Share-alike with Attribution.</p>
+Private Use. Share-alike with Attribution.
