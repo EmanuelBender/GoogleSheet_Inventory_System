@@ -35,12 +35,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 Item = one item with a unique ID   <br>
 Profile = a collection of items   <br>
 Build = a 'built' Profile (removes items, logs change, stats)  <br>
-<br>
-OVERVIEW = our main interaction sheet, most things can be done from here  <br>
-INVENTORY = all inventory items are stored here <br>
-PROFILES = all profiles are stored here <br>
-BUILDS = after a Profile is built, it gets logged here and on LOGS sheet <br>
-LOGS = logs any change or action plus can be triggered  <br>
+
 <!-- ( Project = a collection of Profiles )   <br> -->
 <br>
 </span>
@@ -127,6 +122,15 @@ LOGS = logs any change or action plus can be triggered  <br>
 
 ### Getting Started / How to:
 
+<span>
+<br>
+OVERVIEW = our main interaction sheet, most things can be done from here  <br>
+INVENTORY = all inventory items are stored here <br>
+PROFILES = all profiles are stored here <br>
+BUILDS = after a Profile is built, it gets logged here and on LOGS sheet <br>
+LOGS = logs any change or action plus can be triggered  <br>
+<br>
+</span>
 
 <table>
   <tr colspan="3">
