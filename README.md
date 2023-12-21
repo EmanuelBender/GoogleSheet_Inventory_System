@@ -19,11 +19,13 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
 
 <table>
   <tr>
-    <th>Fast Keyword Search</th>
+    <th>Keyword Search</th>
   </tr>
   <tr>
     <td>
-The search box can act like a file search, but can also trigger profile mode and display other information.
+       The search box can act like a item search, but can also trigger profile mode and display other information. <br>
+       Custom Search algo. Multiple, partial keywords will be found. <br>
+       Entering a Profile will switch sheet into Profile Mode.
    </td>
   </tr>
 
@@ -40,6 +42,16 @@ The search box can act like a file search, but can also trigger profile mode and
   <tr>
     <td>Building a profile means: it subtracts the Profile components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </br>
         Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  
+  </tr>
+
+    <th>Editing</th>
+  </tr>
+  <tr>
+    <td>
+      On the OVERVIEW sheet any row entry can be edited, and will update the INVENTORY sheet. <br> 
+      I found this very intuitive. <br>
+      On the PROFILES sheet only Amount and ID need to be filled in. (faster)
+   </td>
   </tr>
 
   <tr>
