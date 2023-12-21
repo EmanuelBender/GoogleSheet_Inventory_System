@@ -97,9 +97,10 @@ The search box can act like a file search, but can also search profiles and othe
       <th>Installation</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
-    <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  </td>
+    <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
    <!-- <td>Import <a href="https://gist.github.com/franklinokech/ed315587f1ab4ade4da51820a78ddb89">SheetSizeAuditTool</a> library  </td> -->
     <td>Enter items into your INVENTORY sheet (all info).  </td>
+<td></td>
   </tr>
 
   <tr>
