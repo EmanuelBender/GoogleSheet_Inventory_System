@@ -98,10 +98,9 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
   <tr colspan="4">
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
-    <td>Open sheet, click Extensions -> AppsScript -> Add Trigger -> Time: Time Driven daily, Function: logSheetsDaily()</td>
+    <td>Open sheet, click Extensions -> AppsScript -> Add Trigger -> <br> Time: Time Driven daily <br>Function: logSheetsDaily()</td>
     <td>Enter your items into your INVENTORY sheet (all info). <br>
         Create profile -> Enter item ID and amount on PROFILES sheet. </td>
-<td></td>
   </tr>
 
   <tr>
@@ -171,6 +170,8 @@ OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, setti
 - arm: sheet can be disarmed for testing ( all volatile actions deactivated ) <br>
 - grp:  <br>
 - errors: if cells have errors, they appear here <br>
+<br>
+<a href="https://docs.google.com/spreadsheets/d/1myUQEsA9oBNqigG8VdQnsoAnKoohFrl_wG5S7znHjAk/edit?usp=sharing">SheetSizeAuditTool</a>
 </p>
 <br>
 
