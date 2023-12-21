@@ -9,10 +9,9 @@
 </p>
 
 <p size="11px">
-This is a script for a GoogleSheet AppsScript inventory system.
-It is aiming to to keep a universal inventory system up to date while minimising user input.  <br>
-No external labelling needed if used correctly. (organisation always helps ofc)
-I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things.
+It is aiming to keep the inventory system up to date while minimising user input.  <br>
+No external labelling needed if used correctly. (organisation always helps ofc) <br>
+I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things. <br>
 </p>
 
 
@@ -82,7 +81,7 @@ The search box can act like a file search, but can also search profiles and othe
      <th>Toggle Groups</th>
   </tr>
   <tr>
-    <td>There are groups on each sheet that can be expanded and closed with either a button on the overview sheet or individually on the inventory, builds, etc. sheet.</td>
+    <td>There are groups on each sheet that can be expanded and closed with either a button on the OVERVIEW sheet or individually on the INVENTORY, BUILDS, etc. sheet.</td>
   </tr>
 </table>
 
@@ -165,7 +164,7 @@ The search box can act like a file search, but can also search profiles and othe
 <p>
 - Auto detect and import Invoices from email  <br>
 - Auto detect new file in Invoice folder > auto convert exel to csv   <br>
-- detect more Stores (only works with stores with product IDs (DigiKey, Reichelt, ...)  <br>
+- Detect more stores (only works with stores that have const product IDs)  <br>
 - create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile <br>
 
 </p>
@@ -178,12 +177,12 @@ The search box can act like a file search, but can also search profiles and othe
 <p>
 Item = One Item with a unique ID (Mouser or LCSC item no)   <br>
 Profile = a collection of Items   <br>
-Build = a 'built' Profile   <br>
+Build = a 'built' Profile (removes items + logs)  <br>
 ( Project = a collection of Profiles ) tbc   <br>
 <br>
-SheetSizeAuditTool must be installed as a library in Apps Script  <br>
-Invoice inject only works for LCSC and Mouser. <br>
-There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
+! SheetSizeAuditTool must be installed as a library in Apps Script  <br>
+! Invoice inject only works for LCSC and Mouser. <br>
+! There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
 </p>
 
 ---
