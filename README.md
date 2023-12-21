@@ -8,9 +8,9 @@
 <a href="https://www.instagram.com/zen.diy/">Instagram</a><br>
 </p>
 
-<p font-size="11px" align="center">
-It is aiming to keep the inventory system up to date while minimising user input.  <br>
-No external labelling needed if used correctly. (organisation always helps ofc) <br>
+<p align="center">
+It is aiming to keep the inventory system up to date while minimising manual upkeep.  <br>
+Minimal external labelling is needed if used correctly. (organisation always helps ofc) <br>
 I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things. <br>
 </p>
 
@@ -98,6 +98,7 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
   <tr colspan="4">
     <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  </td>
+    <td>Import [SheetSizeAuditTool](https://gist.github.com/franklinokech/ed315587f1ab4ade4da51820a78ddb89) library  </td>
     <td>Enter items into your INVENTORY sheet (all info).  </td>
     <td> </td>
   </tr>
