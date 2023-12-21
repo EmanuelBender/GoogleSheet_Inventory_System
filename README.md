@@ -88,15 +88,16 @@ The search box can act like a file search, but can also search profiles and othe
       <th>Step 1</th> <th>Step 2</th> <th>Step 3</th>
   </tr>
   <tr>
-      <th>Installation</th>
+      <th>Installation</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  </td>
     <td>Enter items into your INVENTORY sheet (all info).  </td>
+    <td> </td>
   </tr>
 
   <tr>
-      <th>Build Profile</th>
+      <th>Build Profile</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  </td>
@@ -105,7 +106,7 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
-     <th>Inject Invoice</th>
+     <th>Inject Invoice</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
@@ -115,7 +116,7 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
-    <th>Shopping List</th>
+    <th>Shopping List</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>The list is created according to the following criteria: </td>  
@@ -125,7 +126,7 @@ The search box can act like a file search, but can also search profiles and othe
 
 
   <tr>
-    <th>Manual upkeep</th>
+    <th>Manual upkeep</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>put new invoices into Folder, trigger inject </td>
