@@ -5,7 +5,7 @@
 
 <p align="center" font-size="10px">An automated inventory system for Google Sheets (Apps Script)<br>
 <b>⚠️ WORK IN PROGRESS</b><br>
-<a href="https://www.instagram.com/zen.diy/">Instagram</a><br>
+<!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
 
 <p align="center">
@@ -165,11 +165,11 @@ The search box can act like a file search, but can also search profiles and othe
 ### DEV
 
 <p>
-OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, settings)
-- fn:
-- arm: sheet can be disarmed for testing ( all volatile actions deactivated )
-- grp: 
-- errors: if cells have errors, they appear here
+OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, settings) <br>
+- fn:  <br>
+- arm: sheet can be disarmed for testing ( all volatile actions deactivated ) <br>
+- grp:  <br>
+- errors: if cells have errors, they appear here <br>
 </p>
 <br>
 
