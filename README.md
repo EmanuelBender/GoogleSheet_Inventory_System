@@ -3,11 +3,11 @@
 <p align="center"><em>by eBender</em></p>
 
 
-<p align="center" font-size="10px">An automated inventory system for Google Sheets (Apps Script)<br>
+<p align="center" font-size="10px">A semi-automated inventory system for Google Sheets (Apps Script)<br>
 <b>⚠️ WORK IN PROGRESS - Functional ⚠️</b><br>
 <!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
-
+</br>
 
 <span>
 This project is designed with simplicity and minimal maintenance in mind. <br>
@@ -23,8 +23,9 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 </span>
 
 <br>
-
-<p align="center">
+<br>
+<br>
+<p align="center" size="16">
 <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">Template Inventory Sheet</a>
 </p>
 
@@ -139,7 +140,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   <tr>
     <td>Create a folder in Google Drive, specify folder name in 'Main Functions.gs'. Place invoices inside, and trigger via the Inject Order button. </td>  
     <td>Ensure items exist in the INVENTORY sheet with matching IDs as on the invoice (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number').   </td>
-    </td>
+    <td>Click the Inject Order button.    </td>
   </tr>
 
   <tr colspan="3">
