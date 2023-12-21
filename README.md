@@ -5,7 +5,7 @@
 An automatic inventory system for Google Sheets (Apps Script)
 
 ## Key Features
-- **Fast Keyword Search:**
+  - Fast Keyword Search
   - The search box functions like a file search, displaying relevant inventory items.
   - Special mode: When a build profile is entered, it activates the BUILD PROFILE button and provides a report after subtracting components.
 
@@ -21,7 +21,7 @@ An automatic inventory system for Google Sheets (Apps Script)
   - Generated via a button on the nav bar or sheet stats sidebar.
 
 ## Utility Features
-- **Stats for the Whole Sheet:**
+  - Stats for the Whole Sheet:
   - Provides total components, items, build profile components, and items with total prices.
 
 - **Console Monitor:**
@@ -34,21 +34,17 @@ An automatic inventory system for Google Sheets (Apps Script)
   - Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
 
 ## Getting Started
-- **Installation:**
+  - Installation:
   - Copy the template Inventory System Sheet into your Google Drive.
-  - With Inventory open, create a new Apps script and copy functions into corresponding files.
   - Enter items into your inventory sheet.
   - Enter profiles on the build profiles sheet.
+  - Create and add to your Invoices Folder
+
   - Start inventoring!
 
-- **Usage:**
-  - Basic instructions on how to use the system.
 
 - **Configuration:**
-  - Extra functions for profiles are available but might be complex and not bug-free.
-
-## Contributing
-- Guidelines for contributing to the project are not specified. Consider clarifying expectations and criteria for contributors.
+  - Extra functions for profiles (a collection of builds) are available but might be not bug-free.
 
 ## License
 - Open source, CC with attribution.
