@@ -22,14 +22,14 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
- <th>Automatic Invoice Import</th>
+    <th>Automatic Invoice Import</th>
   </tr>
   <tr>
     <td> Supports Mouser & LCSC invoices.  </td>
   </tr>
 
   <tr>
-  <th>Build Profile (PROFILES sheet)</th>
+    <th>Build Profile (PROFILES sheet)</th>
   </tr>
   <tr>
     <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  
@@ -102,6 +102,7 @@ The search box can act like a file search, but can also search profiles and othe
     </td>
   </tr>
 
+  <tr>
      <th>Inject Invoice</th>
   </tr>
   <tr>
@@ -111,6 +112,7 @@ The search box can act like a file search, but can also search profiles and othe
     </td>
   </tr>
 
+  <tr>
     <th>Shopping List</th>
   </tr>
   <tr>
