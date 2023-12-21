@@ -7,13 +7,13 @@
 <b>⚠️ WORK IN PROGRESS</b><br>
 <a href="https://www.instagram.com/zen.diy/">Instagram</a><br>
 </p>
----
+
 
 ### Key Features
 
 <table>
   <tr>
-    <th>Fast Keyword Search</th>
+    <th align="left">Fast Keyword Search</th>
   </tr>
   <tr>
     <td>
@@ -22,14 +22,14 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
-    <th>Automatic Invoice Import</th>
+ <th align="left">Automatic Invoice Import</th>
   </tr>
   <tr>
     <td> Supports Mouser & LCSC invoices.  </td>
   </tr>
 
   <tr>
-    <th>Build Profile (PROFILES sheet)</th>
+  <th align="left">Build Profile (PROFILES sheet)</th>
   </tr>
   <tr>
     <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  
@@ -37,41 +37,41 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
-    <th>Sidebar: Shopping list / Stats</th>
+     <th align="left">Sidebar: Shopping list / Stats</th>
   </tr>
   <tr>
     <td>A button on the nav bar will pull up the shopping list or the sheet stats sidebar.</td>
   </tr>
 </table>
 
----
+<br>
 
 ### Utility Features
 
 <table>
   <tr>
-    <th>Stats for the Whole Sheet</th>
+    <th align="left">Stats for the Whole Sheet</th>
   </tr>
   <tr>
     <td>Provides total components, items, build profile components, and items with total prices.</td>
   </tr>
 
   <tr>
-    <th>Console Monitor</th>
+     <th align="left">Console Monitor</th>
   </tr>
   <tr>
     <td>Displays information, errors, and progress. Non-interactive.  </td>
   </tr>
 
   <tr>
-    <th>Daily Logging for Sheet Stats</th>
+     <th align="left">Daily Logging for Sheet Stats</th>
   </tr>
   <tr>
     <td>Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.</td>
   </tr>
 
   <tr>
-    <th>Toggle Groups</th>
+     <th align="left">Toggle Groups</th>
   </tr>
   <tr>
     <td>There are groups on each sheet that can be expanded and closed with either a button on the overview sheet or individually on the inventory, builds, etc. sheet.</td>
