@@ -8,7 +8,8 @@
 <!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
 
-<p align="center" white-space="pre-wrap">
+
+<span>
 This project is designed with simplicity and minimal maintenance in mind. <br>
 The primary goal is to streamline usage, allowing you to interact with it as little as possible. <br>
 Once the initial setup is complete, all management tasks are efficiently handled through the Overview sheet.<br>
@@ -19,8 +20,10 @@ allows adaptation for various applications beyond this scope.<br>
 <br>
 Feel free to customize and explore how this project can best serve your organizational needs. <br>
 The intention is to provide a hassle-free and adaptable solution for efficient inventory management.
-</p>
+</span>
+
 <br>
+
 <p align="center">
 <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">Template Inventory Sheet</a>
 </p>
@@ -52,8 +55,8 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
     <th>Profiles & Builds</th>
   </tr>
   <tr>
-    <td>Building a profile means: it subtracts the Profile components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </br>
-        Then adds the Build to the BUILDS sheet and a Log entry to LOGS.   </br>
+    <td>Profile building subtracts components from the INVENTORY sheet, providing a cost, stats, and success report.  </br>
+        Adds the Build to the BUILDS sheet with a corresponding Log entry in LOGS.   </br>
   </tr>
 
   <tr>
@@ -61,9 +64,9 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>
-      On the OVERVIEW sheet any row entry of a current search can be edited, and will update the INVENTORY sheet. <br>
-      On the PROFILES sheet only Amount and ID need to be filled in. (faster) <br>
-      New items need to be manually entered once on the INVENTORY sheet. Can then be updated by build or invoice.  </br>
+      On the OVERVIEW sheet, edit any row entry from a current search, instantly updating the INVENTORY sheet. <br>
+      PROFILES sheet requires only Amount and ID, speeding up the editing process. <br>
+      New items entered manually once on the INVENTORY sheet can be efficiently updated via builds or invoices.  </br>
    </td>
   </tr>
 
@@ -71,7 +74,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
      <th>Sidebar (Shopping list or Stats)</th>
   </tr>
   <tr>
-    <td>Auto Shopping List: Low or marked items <br>
+    <td>Shopping List: low or marked items. <br>
         Stats: Statistics and graphs for total items, costs, profiles, builds, ... </br>
 </td>
   </tr>
