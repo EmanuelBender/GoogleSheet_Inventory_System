@@ -35,7 +35,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
     <td>
        The search box can act like a item search, but can also trigger profile mode and display other information. <br>
        Custom Search algo. Multiple, partial keywords will be found. <br>
-       Entering a Profile will switch sheet into Profile Mode.
+       Entering a Profile will switch sheet into Profile Mode. </br>
    </td>
   </tr>
 
@@ -44,7 +44,8 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td> Supports Mouser & LCSC invoices. <br>
-         Sheet auto detects store, date, existing items and adds new Items into sheet. </td>
+         Sheet auto detects store, date, existing items and adds new Items into sheet.  </br>
+    </td>
   </tr>
 
   <tr>
@@ -52,7 +53,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>Building a profile means: it subtracts the Profile components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </br>
-        Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  
+        Then adds the Build to the BUILDS sheet and a Log entry to LOGS.   </br>
   </tr>
 
   <tr>
@@ -60,10 +61,9 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>
-      On the OVERVIEW sheet any row entry of a current search can be edited, and will update the INVENTORY sheet. <br> 
-      I found this very intuitive. <br>
+      On the OVERVIEW sheet any row entry of a current search can be edited, and will update the INVENTORY sheet. <br>
       On the PROFILES sheet only Amount and ID need to be filled in. (faster) <br>
-      New items need to be manually entered once on the INVENTORY sheet. Can then be updated by build or invoice. 
+      New items need to be manually entered once on the INVENTORY sheet. Can then be updated by build or invoice.  </br>
    </td>
   </tr>
 
@@ -72,7 +72,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>Auto Shopping List: Low or marked items <br>
-        Stats: Statistics and graphs for total items, costs, profiles, builds, ...
+        Stats: Statistics and graphs for total items, costs, profiles, builds, ... </br>
 </td>
   </tr>
 </table>
@@ -204,6 +204,7 @@ OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, setti
 - Detect more stores (only works with stores that have const product IDs)  <br>
 - create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile <br>
 - auto import and sort unknown new items. (from invoice?)
+- data entry helper - new unknown items data entry prompt, multiple items at once - update and sort when done
 
 </p>
 
