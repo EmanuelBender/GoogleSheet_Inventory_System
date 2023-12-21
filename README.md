@@ -4,21 +4,36 @@
 
 An automatic inventory system for Google Sheets (Apps Script)
 
+This is how it works: You out your items into the INVENTORY Sheet. 
+This is the heart of the whole sheet. You can check status and console messages on the OVERVIEW sheet.
+The search box on the OVERVIEW sheet has multiple functions: Search, Profile Building.
+PROFILES: You can enter a collection of items as a Profile. This profile can then be found
+via the search bar and can be 'Built' via the Build button. 'Building it' means the components
+get subtracted from the INVENTORY sheet, and we get notified about price, stats or if an item is empty or not found.
+Then the Build is saved on the BUILDS sheet.
+There are more fun features like a Stats and a Auto shopping list sidebar, auto invoice import and more.
+
+
 ## Key Features
   - Fast Keyword Search
-  - The search box functions like a file search, displaying relevant inventory items.
-  - Special mode: When a build profile is entered, it activates the BUILD PROFILE button and provides a report after subtracting components.
+  - The search box can act like a file search, but can also search profiles and other information.
+  - BUILDS: support for Profiles. Items can easily be added vie ID and amount on PROFILES sheet. (will automatically be imported from Inventory Sheet)
 
 - **Automatic Invoice Import:**
   - Supports Mouser & LCSC platforms.
-  - Requirements: Create a folder in Google Drive, download invoices, and trigger via the Inject Order button.
+  - Requirements: Create a folder in Google Drive (path in functions), place invoices inside, and trigger via the Inject Order button.
 
-- **Build Project (Builds sheet):**
+- **Build Project (PROJECT sheet):**
   - Create a project by adding items with unique IDs and amounts from the INVENTORY sheet.
-  - Building subtracts components from the inventory with a report on project cost and success.
+  - find your Profile via the search bar
+  - click the BUILD PROFILE button and follow prompts
+  - Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.
+
+- **Sheet Stats Sidebar:**
+  - Generated via a button on the nav corner (top left).
 
 - **Automatic Shopping List:**
-  - Generated via a button on the nav bar or sheet stats sidebar.
+  - Generated via a button on the nav corner.
 
 ## Utility Features
   - Stats for the Whole Sheet:
