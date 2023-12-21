@@ -106,6 +106,8 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
   <tr>
       <th>Step 1</th> <th>Step 2</th> <th>Step 3</th>
   </tr>
+</table>
+<table>
   <tr colspan="3">
       <th colspan="3">Copy sheet & enter Items</th>
   </tr>
@@ -145,6 +147,8 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
     <td>Click Shopping List button. </td>  
   </tr>
 </table>
+
+<br>
 
 <table>
   <tr colspan="3">
