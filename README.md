@@ -97,7 +97,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
       <th>Installation</th><th> </th><th> </th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  </td>
     <td>Enter items into your INVENTORY sheet (all info).  </td>
     <td> </td>
@@ -106,9 +106,9 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
       <th>Build Profile</th><th> </th><th> </th>
   </tr>
-  <tr colspan="4">
-    <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  </td>
-    <td>Find your Profile via the search bar.  </td>
+  <tr>
+    <td>Create a profile by adding a header and entering only ID and amount of each item on the PROFILES sheet.  </td>
+    <td>Find your Profile via the search bar. <br> The mode switches to Profile view. </td>
     <td>Click the BUILD PROFILE button and follow prompts. <br>
         Now build your your profile irl using the specified components. </td>
   </tr>
@@ -116,7 +116,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
      <th>Inject Invoice</th><th> </th><th> </th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
     <td>Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')   </td>
     <td>Click inject Invoice on OVERVIEW sheet.  </td> 
@@ -126,7 +126,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
     <th>Shopping List</th><th> </th><th> </th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>The list is created according to the following criteria: <br> Item amount, Low Inventory amount, Shopping tick box</td>  
     <td>Set shopping tick box and low inventory amount for each Item.  </td>  
     <td> </td>  
@@ -136,7 +136,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
     <th>Manual upkeep</th><th> </th><th> </th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>put new invoices into Folder, trigger inject </td>
     <td>use 'Build Profile' when building smtn that uses inventory components (for ex. a PCB)  </td>
     <td>remove individual items you use from Inventory, when not using 'Build Profile'  </td>
