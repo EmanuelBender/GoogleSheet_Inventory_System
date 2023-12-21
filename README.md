@@ -170,16 +170,20 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 
 ---
 
-### Contributing
+### Disclaimer & Handicaps
 
-<table align="center">
-  <tr>
-    <th>Guidelines</th>
-  </tr>
-  <tr>
-    <td>to be continued...</td>
-  </tr>
-</table>
+<p>
+Item = One Item with a unique ID (Mouser or LCSC item no)   <br>
+Profile = a collection of Items   <br>
+Build = a 'built' Profile (removes items + logs)  <br>
+<!-- ( Project = a collection of Profiles )   <br> -->
+<br>
+- if wanted: Daily logging trigger has to be added after copying template <br>
+- SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
+- user has to allow access <br>
+- Invoice inject only works for LCSC and Mouser. <br>
+- There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
+</p>
 
 ---
 
@@ -209,28 +213,22 @@ OVERVIEW Sheet top right corner > DEV overview (global variables, errors, settin
 
 </p>
 
+
 ---
 
-### Disclaimer & Handicaps
+### Contributing
 
-<p>
-Item = One Item with a unique ID (Mouser or LCSC item no)   <br>
-Profile = a collection of Items   <br>
-Build = a 'built' Profile (removes items + logs)  <br>
-<!-- ( Project = a collection of Profiles )   <br> -->
-<br>
-- if wanted: Daily logging trigger has to be added after copying template <br>
-- SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
-- user has to allow access <br>
-- Invoice inject only works for LCSC and Mouser. <br>
-- There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
-</p>
-
-
-
+<table align="center">
+  <tr>
+    <th>Guidelines</th>
+  </tr>
+  <tr>
+    <td>to be continued...</td>
+  </tr>
+</table>
 
 ---
 
 ### License
 
-<p>Open source, CC with attribution</p>
+<p>Private Use. Share-alike with Attribution.</p>
