@@ -119,8 +119,8 @@ The search box can act like a file search, but can also search profiles and othe
     <th>Shopping List</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
-    <td>The list is created according to the following criteria: </td>  
-    <td>Set shopping list tick box and low inventory alert amount on each Item row.  </td>  
+    <td>The list is created according to the following criteria: <br> Item amount, Low Inventory amount, Shopping tick box</td>  
+    <td>Set shopping tick box and low inventory amount for each Item.  </td>  
     <td>This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory.  </td>  
   </tr>
 
