@@ -85,6 +85,9 @@ The search box can act like a file search, but can also search profiles and othe
 
 <table>
   <tr>
+      <th>Step 1</th> <th>Step 2</th> <th>Step 3</th>
+  </tr>
+  <tr>
       <th>Installation</th>
   </tr>
   <tr colspan="4">
@@ -116,18 +119,18 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
   <tr colspan="4">
     <td>The list is created according to the following criteria: </td>  
-    <td>Shopping list tick box and low inventory amount on each Item row.  </td>  
+    <td>Set shopping list tick box and low inventory alert amount on each Item row.  </td>  
     <td>This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory.  </td>  
   </tr>
 
 
   <tr>
-    <th>Everyday Usage</th>
+    <th>Manual upkeep</th>
   </tr>
   <tr colspan="4">
     <td>put new invoices into Folder, trigger inject </td>
-    <td>use 'Build Profile' when building (for ex. a PCB)  </td>
-    <td>remove individual items you use daily from Inventory, when not using 'Build Profile'  </td>
+    <td>use 'Build Profile' when building smtn that uses inventory components (for ex. a PCB)  </td>
+    <td>remove individual items you use from Inventory, when not using 'Build Profile'  </td>
     </td>
   </tr>
 
