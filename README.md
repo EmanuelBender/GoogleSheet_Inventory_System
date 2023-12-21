@@ -49,13 +49,13 @@ There are more fun features like a Stats and a Auto shopping list sidebar, auto 
   - Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
 
 ## Getting Started
-  - Installation:
-  - Copy the template Inventory System Sheet into your Google Drive.
-  - Enter items into your inventory sheet.
-  - Enter profiles on the build profiles sheet.
-  - Create and add to your Invoices Folder
-
-  - Start inventoring!
+Installation:  
+Copy the template Inventory System Sheet into your Google Drive.  
+Enter items into your inventory sheet.  
+Enter profiles on the build profiles sheet.  
+Create and add to your Invoices Folder  
+  
+Start inventoring!
 
 
 - **Configuration:**
