@@ -90,53 +90,53 @@ The search box can act like a file search, but can also trigger profile mode and
 ### Getting Started / How to
 
 <table>
-  <tr colspan="4">
+  <tr>
       <th>Step 1</th> <th>Step 2</th> <th>Step 3</th>
   </tr>
-  <tr>
-      <th>Copy sheet & enter Items</th><th> </th><th> </th>
+  <tr colspan="3">
+      <th>Copy sheet & enter Items</th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
     <td>Add trigger: Open sheet, click Extensions -> AppsScript -> Add Trigger -> <br> Time: Time Driven daily <br>Function: logSheetsDaily()</td>
     <td>Enter your items into your INVENTORY sheet (all info). <br>
         Create profile -> Enter item ID and amount on PROFILES sheet. </td>
   </tr>
 
-  <tr>
-      <th>Enter Profiles</th><th> </th><th> </th>
+  <tr colspan="3">
+      <th>Enter Profiles</th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>Create a profile by adding a header (profile name) and entering only ID and amount of each item on the PROFILES sheet.  </td>
     <td>Enter your Profile name via the search bar. <br> The mode switches to Profile view. </td>
     <td>Click the BUILD PROFILE button and follow prompts. <br>
         Now build your your profile irl using the specified components. </td>
   </tr>
 
-  <tr>
-     <th>Import Invoice Items</th><th> </th><th> </th>
+  <tr colspan="3">
+     <th>Import Invoice Items</th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
     <td>Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')   </td>
     <td>Click Inject Order button on OVERVIEW sheet.  </td> 
     </td>
   </tr>
 
-  <tr>
-    <th>Shopping List</th><th> </th><th> </th>
+  <tr colspan="3">
+    <th>Shopping List</th>
   </tr>
-  <tr colspan="4">
+  <tr>
     <td>The list is created according to the following criteria: <br> Item amount, Low Inventory amount, Shopping tick box</td>  
     <td>Set shopping tick box and low inventory amount for each Item.  </td>  
     <td>Click Shopping List button. </td>  
   </tr>
 
 
-  <tr colspan='3'>
-    <th colspan='3'>Manual upkeep</th>
+  <tr colspan="3">
+    <th>Manual upkeep</th>
   </tr>
-  <tr colspan="4">
+  <tr colspan="3">
     <td>put new invoice into Folder -> Invoice file rename: Invoice date -> click inject order </td>
     <td>use 'Build Profile' when building smtn that uses inventory components (for ex. a PCB)  </td>
     <td>remove individual items you use from Inventory, when not using 'Build Profile'  </td>
