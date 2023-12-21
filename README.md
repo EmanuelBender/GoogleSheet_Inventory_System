@@ -162,6 +162,17 @@ The search box can act like a file search, but can also search profiles and othe
 
 ---
 
+### DEV
+
+<p>
+OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, settings)
+- fn:
+- arm: sheet can be disarmed for testing ( all volatile actions deactivated )
+- grp: 
+- errors: if cells have errors, they appear here
+</p>
+<br>
+
 ### Future
 
 <p>
@@ -171,7 +182,6 @@ The search box can act like a file search, but can also search profiles and othe
 - create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile <br>
 
 </p>
-
 
 ---
 
@@ -183,17 +193,12 @@ Profile = a collection of Items   <br>
 Build = a 'built' Profile (removes items + logs)  <br>
 ( Project = a collection of Profiles ) tbc   <br>
 <br>
-! SheetSizeAuditTool must be installed as a library in Apps Script  <br>
-! Invoice inject only works for LCSC and Mouser. <br>
-! There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
+- SheetSizeAuditTool must be installed as a library in Apps Script  <br>
+- Invoice inject only works for LCSC and Mouser. <br>
+- There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
 </p>
 
-### DEV
 
-- OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, settings)
-- fn:
-- arm: sheet can be disarmed for testing ( all volatile actions deactivated )
-- grp: 
 
 
 ---
