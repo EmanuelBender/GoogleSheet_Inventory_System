@@ -9,7 +9,7 @@ An automatic inventory system for Google Sheets (Apps Script)
 Item = One Item with unique ID  
 Profile = a collection of Items  
 Build = a 'built' Profile  
-( Project = a collection of Profiles ) tba  
+( Project = a collection of Profiles ) tbc  
 
 
 ## Key Features
@@ -21,10 +21,10 @@ Build = a 'built' Profile
 - Requirements: Create a folder in Google Drive (path in functions), place invoices inside, and trigger via the Inject Order button.
   
 **Build Profile (PROFILES sheet):**
-- Create a profile by adding items with unique ID and amount. The rest is automatic.
+- Create a profile by adding a header and entering ID and amount of each item. The rest is automatic.
 - find your Profile via the search bar.
-- click the BUILD PROFILE button and follow prompts
-- Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.  
+- click the BUILD PROFILE button and follow prompts.
+- Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats and success.  
   
 **Automatic Shopping List:**
 - Generated via a button on the nav corner.  
@@ -47,18 +47,19 @@ Benefits include tracking changes and analyzing trends.
 **Toggle Groups:**  
 Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
   
-**Extra Configuration:**  
-Extra functions for Projects are available but might be not bug-free.
+**Misc:**  
+Extra functions for building Projects are available but might be not bug-free.  
+Multiples of the same item are possible with unique IDs (same item but different store, qty, config)
 
-  
   
 ## Getting Started
 Installation:  
-Copy the template Inventory System Sheet into your Google Drive.  
-Enter items into your inventory sheet.  
+Copy the template Inventory System Sheet into your Google Drive. (WIP, will paste here)  
+Enter items into your INVENTORY sheet.  
 Enter profiles on the PROFILES sheet.  
-Create Invoice folder and add invoices into it.  
-  
+Create Invoice folder and add invoices into it. Import Invoices. 
+Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')
+
 Start inventoring!  
 
 
