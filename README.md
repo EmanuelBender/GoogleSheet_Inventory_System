@@ -4,7 +4,7 @@
 
 
 <p align="center" font-size="10px">A semi-automated inventory system for Google Sheets (Apps Script)<br>
-<b>⚠️ WORK IN PROGRESS - Functional ⚠️</b><br>
+<b>⚠️ WIP - Functional ⚠️</b><br>
 <!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
 </br>
@@ -26,7 +26,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 <br>
 <br>
 <p align="center" size="16">
-<a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">Template Inventory Sheet</a>
+>> <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">Template Inventory Sheet</a> <<
 </p>
 
 ### Key Features
@@ -161,9 +161,8 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr colspan="3">
     <td>put new invoice into Folder -> click inject order </td>
-    <td>use 'Build Profile' when building smtn that uses inventory components (for ex. a PCB)  </td>
-    <td>remove individual items you use from Inventory, when not using 'Build Profile'  </td>
-    </td>
+    <td>manually remove individual items via search, when not using 'Build Profile'  </td>
+    <td>  </td>
   </tr>
 </table>
 
@@ -178,7 +177,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
     <th>Guidelines</th>
   </tr>
   <tr>
-    <td>tbc</td>
+    <td>to be continued...</td>
   </tr>
 </table>
 
