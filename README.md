@@ -34,7 +34,8 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
     <th>Automatic Invoice Import</th>
   </tr>
   <tr>
-    <td> Supports Mouser & LCSC invoices.  </td>
+    <td> Supports Mouser & LCSC invoices. <br>
+         Sheet auto detects store, date, existing items and adds new Items into sheet. </td>
   </tr>
 
   <tr>
@@ -151,7 +152,7 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
     <th colspan="3">Manual upkeep</th>
   </tr>
   <tr colspan="3">
-    <td>put new invoice into Folder -> Invoice file rename: Invoice date -> click inject order </td>
+    <td>put new invoice into Folder -> click inject order </td>
     <td>use 'Build Profile' when building smtn that uses inventory components (for ex. a PCB)  </td>
     <td>remove individual items you use from Inventory, when not using 'Build Profile'  </td>
     </td>
