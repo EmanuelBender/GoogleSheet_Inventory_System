@@ -14,7 +14,10 @@ Also, after setup everything should be handled from the Overview sheet.  <br>
 Minimal external labelling is needed if used correctly. (organisation always helps ofc) <br>
 I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things. <br>
 </p>
-
+<br>
+<p align="center">
+<a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">Template Inventory Sheet</a>
+</p>
 
 ### Key Features
 
