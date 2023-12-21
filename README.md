@@ -31,6 +31,13 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 
 ### Key Features
 
+<span>
+Item = One Item with a unique ID   <br>
+Profile = a collection of Items   <br>
+Build = a 'built' Profile (removes items + logs)  <br>
+<!-- ( Project = a collection of Profiles )   <br> -->
+</span>
+
 <table>
   <tr>
     <th>Keyword Search</th>
@@ -173,10 +180,6 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 ### Disclaimer & Handicaps
 
 <p>
-Item = One Item with a unique ID (Mouser or LCSC item no)   <br>
-Profile = a collection of Items   <br>
-Build = a 'built' Profile (removes items + logs)  <br>
-<!-- ( Project = a collection of Profiles )   <br> -->
 <br>
 - if wanted: Daily logging trigger has to be added after copying template <br>
 - SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
@@ -199,6 +202,8 @@ OVERVIEW Sheet top right corner > DEV overview (global variables, errors, settin
 <a href="https://docs.google.com/spreadsheets/d/1myUQEsA9oBNqigG8VdQnsoAnKoohFrl_wG5S7znHjAk/edit?usp=sharing">SheetSizeAuditTool</a>
 </p>
 <br>
+
+---
 
 ### Future
 
