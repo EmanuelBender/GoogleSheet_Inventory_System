@@ -2,17 +2,17 @@
 
 **WORK IN PROGRESS**
 
-An automatic inventory system for Google Sheets (Apps Script)
-
-This is how it works: You out your items into the INVENTORY Sheet. 
-This is the heart of the whole sheet. You can check status and console messages on the OVERVIEW sheet.
-The search box on the OVERVIEW sheet has multiple functions: Search, Profile Building.
-PROFILES: You can enter a collection of items as a Profile. This profile can then be found
-via the search bar and can be 'Built' via the Build button. 'Building it' means the components
-get subtracted from the INVENTORY sheet, and we get notified about price, stats or if an item is empty or not found.
-Then the Build is saved on the BUILDS sheet.
-There are more fun features like a Stats and a Auto shopping list sidebar, auto invoice import and more.
-
+An automatic inventory system for Google Sheets (Apps Script)  
+  
+This is how it works: You out your items into the INVENTORY Sheet.  
+This is the heart of the whole sheet. You can check status and console messages on the OVERVIEW sheet.  
+The search box on the OVERVIEW sheet has multiple functions: Search, Profile Building.  
+PROFILES: You can enter a collection of items as a Profile. This profile can then be found  
+via the search bar and can be 'Built' via the Build button. 'Building it' means the components  
+get subtracted from the INVENTORY sheet, and we get notified about price, stats or if an item is empty or not found.  
+Then the Build is saved on the BUILDS sheet.  
+There are more fun features like a Stats and a Auto shopping list sidebar, auto invoice import and more.  
+  
 
 ## Key Features
   - Fast Keyword Search
