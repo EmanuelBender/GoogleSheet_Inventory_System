@@ -188,6 +188,14 @@ Build = a 'built' Profile (removes items + logs)  <br>
 ! There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
 </p>
 
+### DEV
+
+- OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, settings)
+- fn:
+- arm: sheet can be disarmed for testing ( all volatile actions deactivated )
+- grp: 
+
+
 ---
 
 ### License
