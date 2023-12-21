@@ -21,16 +21,16 @@ Support for Build Profiles. Items can easily be added via ID and amount on PROFI
   
 **Automatic Invoice Import:**
 - Supports Mouser & LCSC platforms.
-- Requirements: Create a folder in Google Drive (path in functions), place invoices inside, and trigger via the Inject Order button.
+- Requirements: Create a folder in Google Drive (path in functions), place invoices inside, and trigger via the Inject Order button.  
 **Build Project (PROJECT sheet):**
 - Create a project by adding items with unique IDs and amounts from the INVENTORY sheet.
 - find your Profile via the search bar
 - click the BUILD PROFILE button and follow prompts
-- Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.
+- Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.  
 **Sheet Stats Sidebar:**
-- Generated via a button on the nav corner (top left).
+- Generated via a button on the nav corner (top left).  
 **Automatic Shopping List:**
-- Generated via a button on the nav corner.
+- Generated via a button on the nav corner.  
 
 ## Utility Features
 Stats for the Whole Sheet:  
