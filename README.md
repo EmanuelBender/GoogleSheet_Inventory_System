@@ -1,4 +1,4 @@
-<h1 align="center">GoogleSheet Inventory System</h1>
+<h1 align="center">GoogleSheet SMD/PCB Inventory System</h1>
 
 <p align="center"><em>by eBender</em></p>
 
@@ -6,6 +6,13 @@
 <p align="center" font-size="10px">An automated inventory system for Google Sheets (Apps Script)<br>
 <b>⚠️ WORK IN PROGRESS</b><br>
 <a href="https://www.instagram.com/zen.diy/">Instagram</a><br>
+</p>
+
+<p size="11px">
+This is a script for a GoogleSheet AppsScript inventory system.
+It is aiming to to keep a universal inventory system up to date while minimising user input.  <br>
+No external labelling needed if used correctly. (organisation always helps ofc)
+I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things.
 </p>
 
 
@@ -102,7 +109,8 @@ The search box can act like a file search, but can also search profiles and othe
   <tr colspan="4">
     <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  </td>
     <td>Find your Profile via the search bar.  </td>
-    <td>Click the BUILD PROFILE button and follow prompts.   </td>
+    <td>Click the BUILD PROFILE button and follow prompts. <br>
+        Now build your your profile irl using the specified components. </td>
   </tr>
 
   <tr>
@@ -121,7 +129,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr colspan="4">
     <td>The list is created according to the following criteria: <br> Item amount, Low Inventory amount, Shopping tick box</td>  
     <td>Set shopping tick box and low inventory amount for each Item.  </td>  
-    <td>This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory.  </td>  
+    <td> </td>  
   </tr>
 
 
