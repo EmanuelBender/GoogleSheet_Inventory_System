@@ -10,30 +10,33 @@
 
 ### Key Features
 
-<table style='border: none;'>
+<table>
   <tr>
     <th>Fast Keyword Search</th>
   </tr>
   <tr>
-    <td>The search box can act like a file search, but can also search profiles and other information. Almost like the file search on the computer. There is a special mode when a build profile is entered as the search term, it is detected and will show a message in the console, the components in the profile, and make the BUILD PROFILE button active so the selected profile can be built. Building a profile means you can select and 'build' any profile from the profiles sheet, which means the components needed to build it will be subtracted from the inventory list and you get a short report of how expensive the project is, components, and if the build was successful.</td>
+    <td>
+The search box can act like a file search, but can also search profiles and other information.
+   </td>
   </tr>
 
   <tr>
     <th>Automatic Invoice Import</th>
   </tr>
   <tr>
-    <td>Triggered via the Inject Order button. Requirements: a folder has to be created in your Google Drive, and a new Mouser or LCSC invoice has to be downloaded. The store will be automatically detected (Mouser, LCSC).</td>
+    <td> Supports Mouser & LCSC invoices.  </td>
   </tr>
 
   <tr>
-    <th>Build Project (Builds sheet)</th>
+    <th>Build Profile (PROFILES sheet)</th>
   </tr>
   <tr>
-    <td>Each item has a unique ID and an amount. A build project can easily be created by adding new items by entering the ID and the amount of the item, and all info for that item will be gathered and filled in automatically from the INVENTORY sheet.</td>
+    <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  
+  Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  </td>
   </tr>
 
   <tr>
-    <th>Automatic Shopping List</th>
+    <th>Sidebar: Shopping list / Stats</th>
   </tr>
   <tr>
     <td>A button on the nav bar will pull up the shopping list or the sheet stats sidebar.</td>
@@ -49,14 +52,14 @@
     <th>Stats for the Whole Sheet</th>
   </tr>
   <tr>
-    <td>Provides stats for total components and items, build profile components and items, with total prices.</td>
+    <td>Provides total components, items, build profile components, and items with total prices.</td>
   </tr>
 
   <tr>
     <th>Console Monitor</th>
   </tr>
   <tr>
-    <td>The console is just a display. Any information, error, or progress of the sheet will be shown in the monitor. I.e., error messages and help messages for importing invoices and other automatic functions.</td>
+    <td>Displays information, errors, and progress. Non-interactive.  </td>
   </tr>
 
   <tr>
@@ -83,22 +86,50 @@
     <th>Installation</th>
   </tr>
   <tr>
-    <td>Copy the template Inventory System Sheet into your Google Drive. With Inventory open, create a new Apps script, create the 4 files, and copy functions inside the corresponding files. Enter items into your inventory sheet. Enter profiles on the build profiles sheet. Start inventoring!</td>
+    <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  <br>
+  Enter items into your INVENTORY sheet (all info).  </td>
   </tr>
 
   <tr>
-    <th>Usage</th>
+    <th>Build Profile</th>
   </tr>
   <tr>
-    <td>Basic instructions on how to use the system.</td>
+    <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  <br>
+  Find your Profile via the search bar.  <br>
+  Click the BUILD PROFILE button and follow prompts.  
+    </td>
   </tr>
 
-  <tr>
-    <th>Configuration</th>
+   <th>Inject Invoice</th>
   </tr>
   <tr>
-    <td>There are some extra functions for profiles which are a collection of builds, but it is not 100% bug-free yet and might be making it too complicated to use.</td>
+    <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button.\n  
+  Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')  \n
+  Click inject Invoice on OVERVIEW sheet.   
+    </td>
   </tr>
+
+   <th>Shopping List</th>
+  </tr>
+  <tr>
+    <td>The list is created according to the following criteria:  \n
+  Shopping list tick box and low inventory amount on each Item row.   \n
+  This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory. \n
+    </td>
+  </tr>
+
+
+  <tr>
+    <th>Everyday Usage</th>
+  </tr>
+  <tr>
+    <td>Keeping sheet updated: \n
+        put new invoices into Folder, trigger \n
+        use 'Build Profile' when building (for ex. a PCB)\n
+        remove individual items you use daily from Inventory, when not using 'Build Profile' \n
+    </td>
+  </tr>
+
 </table>
 
 ---
@@ -110,18 +141,36 @@
     <th>Guidelines</th>
   </tr>
   <tr>
-    <td></td>
+    <td>tbc</td>
   </tr>
 </table>
+---
+
+### Future
+
+<p>
+Auto detect and import Invoices from email \n
+
+
+</p>
+
+
+---
+
+### Disclaimer & Handicaps
+
+<p>
+Item = One Item with a unique ID (Mouser or LCSC item no)  \n
+Profile = a collection of Items  \n
+Build = a 'built' Profile  \n
+( Project = a collection of Profiles ) tbc  \n
+SheetSizeAuditTool must be installed as a library in Apps Script \n
+Invoice inject only works for LCSC and Mouser.\n
+There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
+</p>
 
 ---
 
 ### License
 
 <p>Open source, CC with attribution</p>
-
----
-
-### Disclaimer
-
-<p>Invoice inject only works for LCSC and Mouser.</p>
