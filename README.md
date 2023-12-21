@@ -125,8 +125,7 @@ The search box can act like a file search, but can also search profiles and othe
     <th>Everyday Usage</th>
   </tr>
   <tr colspan="4">
-    <td>Keeping sheet updated:  </td>
-    <td>put new invoices into Folder, trigger  </td>
+    <td>put new invoices into Folder, trigger inject </td>
     <td>use 'Build Profile' when building (for ex. a PCB)  </td>
     <td>remove individual items you use daily from Inventory, when not using 'Build Profile'  </td>
     </td>
@@ -153,7 +152,9 @@ The search box can act like a file search, but can also search profiles and othe
 
 <p>
 - Auto detect and import Invoices from email  <br>
-
+- Auto detect new file in Invoice folder > auto convert exel to csv   <br>
+- detect more Stores (only works with stores with product IDs (+DigiKey, Reichelt, 
+- create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile
 
 </p>
 
