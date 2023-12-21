@@ -1,15 +1,16 @@
 <h1 align="center">GoogleSheet Inventory System</h1>
 
-<p align="center"><em>by Manu</em></p>
+<p align="center"><em>by eBender</em></p>
 
-<p align="center"><b>WORK IN PROGRESS</b><br>
-An automatic inventory system for Google Sheets (Apps Script)</p>
+
+<p align="center">An automatic inventory system for Google Sheets (Apps Script)<br>
+<b>⚠️ WORK IN PROGRESS</b></p>
 
 ---
 
 ### Key Features
 
-<table align="center">
+<table style='border: none;'>
   <tr>
     <th>Fast Keyword Search</th>
   </tr>
@@ -43,7 +44,7 @@ An automatic inventory system for Google Sheets (Apps Script)</p>
 
 ### Utility Features
 
-<table align="center">
+<table>
   <tr>
     <th>Stats for the Whole Sheet</th>
   </tr>
@@ -77,7 +78,7 @@ An automatic inventory system for Google Sheets (Apps Script)</p>
 
 ### Getting Started
 
-<table align="center">
+<table>
   <tr>
     <th>Installation</th>
   </tr>
@@ -109,7 +110,7 @@ An automatic inventory system for Google Sheets (Apps Script)</p>
     <th>Guidelines</th>
   </tr>
   <tr>
-    <td>Not sure, can you help out? What is the usual here? I want only serious people to be allowed to work on it.</td>
+    <td></td>
   </tr>
 </table>
 
@@ -117,10 +118,10 @@ An automatic inventory system for Google Sheets (Apps Script)</p>
 
 ### License
 
-<p align="center">Open source, CC with attribution</p>
+<p>Open source, CC with attribution</p>
 
 ---
 
 ### Disclaimer
 
-<p align="center">Invoice inject only works for LCSC and Mouser.</p>
+<p>Invoice inject only works for LCSC and Mouser.</p>
