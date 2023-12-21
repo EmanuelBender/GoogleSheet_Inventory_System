@@ -23,7 +23,7 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
   </tr>
   <tr>
     <td>
-The search box can act like a file search, but can also search profiles and other information.
+The search box can act like a file search, but can also trigger profile mode and display other information.
    </td>
   </tr>
 
@@ -98,8 +98,9 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
   <tr colspan="4">
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
-   <!-- <td>Import <a href="https://gist.github.com/franklinokech/ed315587f1ab4ade4da51820a78ddb89">SheetSizeAuditTool</a> library  </td> -->
-    <td>Enter items into your INVENTORY sheet (all info).  </td>
+    <td>Open sheet, click Extensions -> AppsScript -> Add Trigger -> Time: Time Driven daily, Function: logSheetsDaily()</td>
+    <td>Enter your items into your INVENTORY sheet (all info). <br>
+        Create profile -> Enter item ID and amount on PROFILES sheet. </td>
 <td></td>
   </tr>
 
