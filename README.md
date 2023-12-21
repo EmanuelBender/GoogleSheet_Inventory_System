@@ -118,10 +118,10 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
       <th colspan="3">1. Copy sheet & enter Items</th>
   </tr>
   <tr>
-    <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
-    <td>Add trigger: Open sheet, click Extensions -> AppsScript -> Add Trigger -> <br> Time: Time Driven daily <br>Function: logSheetsDaily()</td>
-    <td>Enter your items into your INVENTORY sheet (all info).
-        Create profile -> Enter item ID and amount on PROFILES sheet. </td>
+    <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> to your Google Drive.    </td>     
+    <td>Add dayily time-driven trigger: Extensions -> AppsScript -> Add Trigger -> logSheetsDaily()<br> 
+    <td>Enter your items into your INVENTORY sheet incl. all info.
+        Create profiles by entering item ID and amount on the PROFILES sheet. </td>
   </tr>
 
   <tr colspan="3">
@@ -129,18 +129,16 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>Create a profile by adding a header (profile name) and entering only ID and amount of each item on the PROFILES sheet.  </td>
-    <td>Enter your Profile name via the search bar. <br> The mode switches to Profile view. </td>
-    <td>Click the BUILD PROFILE button and follow prompts. 
-        Now build your your profile irl using the specified components. </td>
+    <td>Enter your Profile name via the search bar to switch to Profile mode. </td>
+    <td> Click the BUILD PROFILE button, follow prompts, and physically assemble your profile using specified components. </td>
   </tr>
 
   <tr colspan="3">
      <th colspan="3">3. Import Invoice Items</th>
   </tr>
   <tr>
-    <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
-    <td>Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')   </td>
-    <td>Click Inject Order button on OVERVIEW sheet.  </td> 
+    <td>Create a folder in Google Drive, specify folder name in 'Main Functions.gs'. Place invoices inside, and trigger via the Inject Order button. </td>  
+    <td>Ensure items exist in the INVENTORY sheet with matching IDs as on the invoice (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number').   </td>
     </td>
   </tr>
 
@@ -148,9 +146,9 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
     <th colspan="3">4. Shopping List</th>
   </tr>
   <tr>
-    <td>The list is created according to the following criteria: <br> Item amount, Low Inventory amount, Shopping tick box</td>  
-    <td>Set shopping tick box and low inventory amount for each Item.  </td>  
-    <td>Click Shopping List button. </td>  
+    <td>Generate the list based on item amount, low inventory amount, and shopping tick box criteria. </td>  
+    <td>Set shopping tick box and low inventory amount for each item.  </td>  
+    <td>Click the Shopping List button to view your shopping list. </td>  
   </tr>
 </table>
 
