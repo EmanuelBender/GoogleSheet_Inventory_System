@@ -123,11 +123,11 @@ Build = a 'built' Profile (removes items, logs change, stats)  <br>
 ### Getting Started / How to:
 
 <span>
+<b>Sheets:</b>
 OVERVIEW = Main hub for tasks. <br>
-   - Edit entries instantly on the INVENTORY sheet. <br>
-   - Create and build profiles on the PROFILES sheet. <br>
-   - Trigger builds and log actions on the BUILDS and LOGS sheets. <br>
-<br>
+ &nbsp;  - Edit entries instantly on the INVENTORY sheet. <br>
+ &nbsp;  - Create and build profiles on the PROFILES sheet. <br>
+ &nbsp;  - Trigger builds and log actions on the BUILDS and LOGS sheets. <br>
 INVENTORY = Store all inventory items. <br>
 PROFILES = Store all profiles. <br>
 BUILDS = Log built profiles. Also recorded in the LOGS sheet. <br>
