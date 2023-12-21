@@ -29,11 +29,11 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
-    <th>Build Profile (PROFILES sheet)</th>
+    <th>Profiles & Builds (PROFILES sheet)</th>
   </tr>
   <tr>
-    <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  
-  Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  </td>
+    <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </td>
+  <td>Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  </td>
   </tr>
 
   <tr>
@@ -88,27 +88,26 @@ The search box can act like a file search, but can also search profiles and othe
       <th>Installation</th>
   </tr>
   <tr>
-    <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  <br>
-  Enter items into your INVENTORY sheet (all info).  </td>
+    <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  </td>
+    <td>Enter items into your INVENTORY sheet (all info).  </td>
   </tr>
 
   <tr>
       <th>Build Profile</th>
   </tr>
   <tr>
-    <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  <br>
-  Find your Profile via the search bar.  <br>
-  Click the BUILD PROFILE button and follow prompts.  
-    </td>
+    <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  </td>
+    <td>Find your Profile via the search bar.  </td>
+    <td>Click the BUILD PROFILE button and follow prompts.   </td>
   </tr>
 
   <tr>
      <th>Inject Invoice</th>
   </tr>
   <tr>
-    <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. <br>  
-  Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')   <br>
-  Click inject Invoice on OVERVIEW sheet.   
+    <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
+    <td>Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')   </td>
+    <td>Click inject Invoice on OVERVIEW sheet.  </td> 
     </td>
   </tr>
 
@@ -116,10 +115,9 @@ The search box can act like a file search, but can also search profiles and othe
     <th>Shopping List</th>
   </tr>
   <tr>
-    <td>The list is created according to the following criteria:  <br>
-  Shopping list tick box and low inventory amount on each Item row.   <br>
-  This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory.  <br>
-    </td>
+    <td>The list is created according to the following criteria: </td>  
+    <td>Shopping list tick box and low inventory amount on each Item row.  </td>  
+    <td>This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory.  </td>  
   </tr>
 
 
