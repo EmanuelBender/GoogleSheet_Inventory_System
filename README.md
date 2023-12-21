@@ -4,7 +4,7 @@
 
 
 <p align="center" font-size="10px">An automated inventory system for Google Sheets (Apps Script)<br>
-<b>⚠️ WORK IN PROGRESS</b><br>
+<b>⚠️ WORK IN PROGRESS - Functional ⚠️</b><br>
 <!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
 
@@ -203,7 +203,7 @@ OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, setti
 - Auto detect new file in Invoice folder > auto convert exel to csv   <br>
 - Detect more stores (only works with stores that have const product IDs)  <br>
 - create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile <br>
-- auto import and sort unknown new items. (from invoice?)
+- auto import and sort unknown new items. (from invoice?) <br>
 - data entry helper - new unknown items data entry prompt, multiple items at once - update and sort when done
 
 </p>
