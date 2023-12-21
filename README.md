@@ -48,8 +48,9 @@ Benefits include tracking changes and analyzing trends.
 Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on sheet.
   
 **Misc:**  
-Extra functions for building Projects are available but might be not bug-free.  
-Multiples of the same item are possible with unique IDs (same item but different store, qty, config)
+Multiples of the same item are possible with unique IDs (same item but different store, qty, config)  
+Feature: build Projects is available but might be not bug-free.  
+Feature: Check emails for orders, then import that order/invoice automatically once it has been received. (work in progress)  
 
   
 ## Getting Started
@@ -69,3 +70,4 @@ Start inventoring!
 
 ## Disclaimer
 - Invoice inject only works for LCSC and Mouser.
+- SheetSizeAuditTool as the be installed (?)
