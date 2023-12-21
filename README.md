@@ -133,8 +133,8 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
 
 
-  <tr>
-    <th>Manual upkeep</th><th> </th><th> </th>
+  <tr colspan='3'>
+    <th colspan='3'>Manual upkeep</th>
   </tr>
   <tr colspan="4">
     <td>put new invoice into Folder -> Invoice file rename: Invoice date -> click inject order </td>
