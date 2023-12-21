@@ -196,7 +196,6 @@ Build = a 'built' Profile (removes items + logs)  <br>
 ( Project = a collection of Profiles ) tbc   <br>
 <br>
 - if wanted: Daily logging trigger has to be added after copying template <br>
-- invoice file names need to be a date (received date) <br>
 - SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
 - user has to allow access <br>
 - Invoice inject only works for LCSC and Mouser. <br>
