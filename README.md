@@ -100,7 +100,7 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
 
 <br>
 
-### Getting Started / How to
+### Getting Started / How to:
 
 <table>
   <tr>
@@ -144,8 +144,9 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
     <td>Set shopping tick box and low inventory amount for each Item.  </td>  
     <td>Click Shopping List button. </td>  
   </tr>
+</table>
 
-
+<table>
   <tr colspan="3">
     <th colspan="3">Manual upkeep</th>
   </tr>
@@ -155,7 +156,6 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
     <td>remove individual items you use from Inventory, when not using 'Build Profile'  </td>
     </td>
   </tr>
-
 </table>
 
 <br>
