@@ -87,14 +87,14 @@ The search box can act like a file search, but can also trigger profile mode and
 
 <br>
 
-### Getting Started
+### Getting Started / How to
 
 <table>
   <tr colspan="4">
       <th>Step 1</th> <th>Step 2</th> <th>Step 3</th>
   </tr>
   <tr>
-      <th>Installation</th><th> </th><th> </th>
+      <th>Copy sheet & enter Items</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
@@ -104,7 +104,7 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
 
   <tr>
-      <th>Build Profile</th><th> </th><th> </th>
+      <th>Enter Profiles</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>Create a profile by adding a header (profile name) and entering only ID and amount of each item on the PROFILES sheet.  </td>
@@ -114,7 +114,7 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
 
   <tr>
-     <th>Inject Invoice</th><th> </th><th> </th>
+     <th>Import Invoice Items</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
@@ -195,9 +195,10 @@ Profile = a collection of Items   <br>
 Build = a 'built' Profile (removes items + logs)  <br>
 ( Project = a collection of Profiles ) tbc   <br>
 <br>
-- Logging trigger has to be added after copying template <br>
-- invoice file names need to be a date (received date)
-- SheetSizeAuditTool must be installed as a library in Apps Script (will be copied over)  <br>
+- if wanted: Daily logging trigger has to be added after copying template <br>
+- invoice file names need to be a date (received date) <br>
+- SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
+- user has to allow access <br>
 - Invoice inject only works for LCSC and Mouser. <br>
 - There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
 </p>
