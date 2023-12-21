@@ -8,13 +8,13 @@
 <!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
 
-<p align="center">
+<p align="center" white-space="pre-wrap">
 This project is designed with simplicity and minimal maintenance in mind. <br>
 The primary goal is to streamline usage, allowing you to interact with it as little as possible. <br>
 Once the initial setup is complete, all management tasks are efficiently handled through the Overview sheet.<br>
 <br>
-I personally employ this system for organizing Surface Mount Device (SMD) items and Printed Circuit Board (PCB) projects, <br>
-especially in conjunction with SMD containers. However, the flexibility of the structure <br>
+I personally employ this system for organizing Surface Mount Device (SMD) items and Printed Circuit Board (PCB) projects,
+especially in conjunction with SMD containers. However, the flexibility of the structure 
 allows adaptation for various applications beyond this scope.<br>
 <br>
 Feel free to customize and explore how this project can best serve your organizational needs. <br>
