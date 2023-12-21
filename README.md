@@ -46,6 +46,7 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
         Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  
   </tr>
 
+  <tr>
     <th>Editing</th>
   </tr>
   <tr>
