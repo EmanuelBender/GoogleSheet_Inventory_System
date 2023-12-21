@@ -63,8 +63,9 @@ click the BUILD PROFILE button and follow prompts.
 
 Shopping List:  
 The list is created according to the following criteria:  
-Shopping list tick box and low inventory amount on each Item row. If the amount in the actual inventory is too low it's on the list, if the tick box is activated.  
-This is why we need to track our Builds as well, to have an accurate and almost automatic representation of the actual real world items in the inventory.  
+Shopping list tick box and low inventory amount on each Item row.  
+This is why we need to track our Builds and invoices, to have an accurate and  
+automatic representation of the actual real world items in our inventory.  
 
 Inject Invoice:  
 Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button.  
