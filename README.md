@@ -120,7 +120,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> to your Google Drive.    </td>     
-    <td>Add dayily time-driven trigger: Extensions -> AppsScript -> Add Trigger -> logSheetsDaily()<br> 
+    <td>Add dayily time-driven trigger: Extensions > AppsScript > Add Trigger > logSheetsDaily()<br> 
     <td>Enter your items into your INVENTORY sheet incl. all info.
         Create profiles by entering item ID and amount on the PROFILES sheet. </td>
   </tr>
@@ -160,7 +160,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
     <th colspan="3">Manual upkeep</th>
   </tr>
   <tr colspan="3">
-    <td>put new invoice into Folder -> click inject order </td>
+    <td>put new invoice into Folder > click inject order </td>
     <td>manually remove individual item amounts via search, when not using 'Build Profile'  </td>
     <td>updating profiles  </td>
   </tr>
@@ -186,7 +186,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 ### DEV
 
 <p>
-OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, settings) <br>
+OVERVIEW Sheet top right corner > DEV overview (global variables, errors, settings) <br>
 - fn:  <br>
 - arm:     sheet can be disarmed for testing ( all volatile actions deactivated ) <br>
 - grp:     used by code<br>
@@ -204,7 +204,8 @@ OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, setti
 - Detect more stores (only works with stores that have const product IDs)  <br>
 - create PCBway/Aisler/JLCPCB integration > auto create Profile from PCB manufacturer invoice and/or BOM > auto build profile <br>
 - auto import and sort unknown new items. (from invoice?) <br>
-- data entry helper - new unknown items data entry prompt, multiple items at once - update and sort when done
+- data entry helper > new unknown items data entry prompt, multiple items at once > update and sort when done <br>
+- Projects: build a collection of Profiles (some parts already implemented, might take out) <br>
 
 </p>
 
@@ -216,7 +217,7 @@ OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, setti
 Item = One Item with a unique ID (Mouser or LCSC item no)   <br>
 Profile = a collection of Items   <br>
 Build = a 'built' Profile (removes items + logs)  <br>
-( Project = a collection of Profiles ) tbc   <br>
+<!-- ( Project = a collection of Profiles )   <br> -->
 <br>
 - if wanted: Daily logging trigger has to be added after copying template <br>
 - SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
