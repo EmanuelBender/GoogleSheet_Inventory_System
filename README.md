@@ -3,9 +3,10 @@
 <p align="center"><em>by eBender</em></p>
 
 
-<p align="center">An automatic inventory system for Google Sheets (Apps Script)<br>
-<b>⚠️ WORK IN PROGRESS</b></p>
-
+<p align="center" font-size="10px">An automatic inventory system for Google Sheets (Apps Script)<br>
+<b>⚠️ WORK IN PROGRESS</b><br>
+<a href="https://www.instagram.com/zen.diy/">Instagram</a><br>
+</p>
 ---
 
 ### Key Features
