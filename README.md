@@ -13,7 +13,7 @@
 
 <table>
   <tr>
-    <th align="left">Fast Keyword Search</th>
+    <th>Fast Keyword Search</th>
   </tr>
   <tr>
     <td>
@@ -22,14 +22,14 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
- <th align="left">Automatic Invoice Import</th>
+ <th>Automatic Invoice Import</th>
   </tr>
   <tr>
     <td> Supports Mouser & LCSC invoices.  </td>
   </tr>
 
   <tr>
-  <th align="left">Build Profile (PROFILES sheet)</th>
+  <th>Build Profile (PROFILES sheet)</th>
   </tr>
   <tr>
     <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  
@@ -37,7 +37,7 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
-     <th align="left">Sidebar: Shopping list / Stats</th>
+     <th>Sidebar (Shopping list or Stats)</th>
   </tr>
   <tr>
     <td>A button on the nav bar will pull up the shopping list or the sheet stats sidebar.</td>
@@ -49,29 +49,30 @@ The search box can act like a file search, but can also search profiles and othe
 ### Utility Features
 
 <table>
-  <tr>
-    <th align="left">Stats for the Whole Sheet</th>
-  </tr>
-  <tr>
-    <td>Provides total components, items, build profile components, and items with total prices.</td>
-  </tr>
 
   <tr>
-     <th align="left">Console Monitor</th>
+     <th>Console Monitor</th>
   </tr>
   <tr>
     <td>Displays information, errors, and progress. Non-interactive.  </td>
   </tr>
 
   <tr>
-     <th align="left">Daily Logging for Sheet Stats</th>
+    <th>Stats</th>
+  </tr>
+  <tr>
+    <td>Provides graphs and numbers of total components, items, build profile components, and items with total prices.</td>
+  </tr>
+
+  <tr>
+     <th>Daily Logging for Sheet Stats</th>
   </tr>
   <tr>
     <td>Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.</td>
   </tr>
 
   <tr>
-     <th align="left">Toggle Groups</th>
+     <th>Toggle Groups</th>
   </tr>
   <tr>
     <td>There are groups on each sheet that can be expanded and closed with either a button on the overview sheet or individually on the inventory, builds, etc. sheet.</td>
@@ -84,7 +85,7 @@ The search box can act like a file search, but can also search profiles and othe
 
 <table>
   <tr>
-    <th>Installation</th>
+      <th>Installation</th>
   </tr>
   <tr>
     <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  <br>
@@ -92,7 +93,7 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
   <tr>
-    <th>Build Profile</th>
+      <th>Build Profile</th>
   </tr>
   <tr>
     <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  <br>
@@ -101,7 +102,7 @@ The search box can act like a file search, but can also search profiles and othe
     </td>
   </tr>
 
-   <th>Inject Invoice</th>
+     <th>Inject Invoice</th>
   </tr>
   <tr>
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. <br>  
@@ -110,7 +111,7 @@ The search box can act like a file search, but can also search profiles and othe
     </td>
   </tr>
 
-   <th>Shopping List</th>
+    <th>Shopping List</th>
   </tr>
   <tr>
     <td>The list is created according to the following criteria:  <br>
@@ -166,6 +167,7 @@ Item = One Item with a unique ID (Mouser or LCSC item no)   <br>
 Profile = a collection of Items   <br>
 Build = a 'built' Profile   <br>
 ( Project = a collection of Profiles ) tbc   <br>
+<br>
 SheetSizeAuditTool must be installed as a library in Apps Script  <br>
 Invoice inject only works for LCSC and Mouser. <br>
 There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
