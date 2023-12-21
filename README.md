@@ -102,34 +102,30 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
 
 ### Getting Started / How to:
 
-<table>
-  <tr>
-      <th>Step 1</th> <th>Step 2</th> <th>Step 3</th>
-  </tr>
-</table>
+
 <table>
   <tr colspan="3">
-      <th colspan="3">Copy sheet & enter Items</th>
+      <th colspan="3">1. Copy sheet & enter Items</th>
   </tr>
   <tr>
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
     <td>Add trigger: Open sheet, click Extensions -> AppsScript -> Add Trigger -> <br> Time: Time Driven daily <br>Function: logSheetsDaily()</td>
-    <td>Enter your items into your INVENTORY sheet (all info). <br>
+    <td>Enter your items into your INVENTORY sheet (all info).
         Create profile -> Enter item ID and amount on PROFILES sheet. </td>
   </tr>
 
   <tr colspan="3">
-      <th colspan="3">Enter Profiles</th>
+      <th colspan="3">2. Enter Profiles</th>
   </tr>
   <tr>
     <td>Create a profile by adding a header (profile name) and entering only ID and amount of each item on the PROFILES sheet.  </td>
     <td>Enter your Profile name via the search bar. <br> The mode switches to Profile view. </td>
-    <td>Click the BUILD PROFILE button and follow prompts. <br>
+    <td>Click the BUILD PROFILE button and follow prompts. 
         Now build your your profile irl using the specified components. </td>
   </tr>
 
   <tr colspan="3">
-     <th colspan="3">Import Invoice Items</th>
+     <th colspan="3">3. Import Invoice Items</th>
   </tr>
   <tr>
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
@@ -139,7 +135,7 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
   </tr>
 
   <tr colspan="3">
-    <th colspan="3">Shopping List</th>
+    <th colspan="3">4. Shopping List</th>
   </tr>
   <tr>
     <td>The list is created according to the following criteria: <br> Item amount, Low Inventory amount, Shopping tick box</td>  
