@@ -6,16 +6,21 @@ by eBender
 An automatic inventory system for Google Sheets (Apps Script)  
   
 This is how it works: Items are entered into the INVENTORY Sheet with a unique ID.  
-This is the heart of the whole sheet.  
-You can check status and console messages on the OVERVIEW sheet.  
+This is the heart of the whole sheet.   
 The search box on the OVERVIEW sheet has multiple functions: Search, Profile Building.  
 PROFILES: You can enter a collection of items as a Profile. This profile can then be found  
-via the search bar and then be 'Built' via the Build button.  
+via the search bar and then be built via the Build PROFILE button.  
 'Building it' means the components get subtracted from the INVENTORY sheet,  
 and we get notified about price, stats or if an item is empty or not found.  
 Then the Build is saved on the BUILDS sheet.  
+You can check status and console messages on the OVERVIEW sheet.  
 There are more fun features like stats, auto shopping list sidebar, auto invoice import and more.  
-  
+
+Item = One Item with unique ID  
+Profile = a collection of Items  
+Build = a 'built' Profile  
+( Project = a collection of Profiles ) tba  
+
 
 ## Key Features
 **Fast Keyword Search**
@@ -37,20 +42,21 @@ There are more fun features like stats, auto shopping list sidebar, auto invoice
 
   
 ## Utility Features
-Stats for the Whole Sheet:  
+**Stats for the Whole Sheet:**  
 Provides total components, items, build profile components, and items with total prices.  
   
 **Console Monitor:**  
 Displays information, errors, and progress. Non-interactive.
   
 **Daily Logging for Sheet Stats:**  
-Logged data includes various sheet metrics. Benefits include tracking changes and analyzing trends.
+Logged data includes various sheet metrics. 
+Benefits include tracking changes and analyzing trends.
   
 **Toggle Groups:**  
 Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
   
 **Extra Configuration:**  
-Extra functions for profiles (a collection of builds) are available but might be not bug-free.
+Extra functions for Projects are available but might be not bug-free.
 
   
   
