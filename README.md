@@ -6,7 +6,7 @@ by eBender
 An automatic inventory system for Google Sheets (Apps Script)  
   
 
-Item = One Item with unique ID  
+Item = One Item with unique ID (Mouser or LCSC item no)  
 Profile = a collection of Items  
 Build = a 'built' Profile  
 ( Project = a collection of Profiles ) tbc  
@@ -22,7 +22,7 @@ Build = a 'built' Profile
   
 **Build Profile (PROFILES sheet):**
 - Create a profile by adding a header and entering ID and amount of each item. The rest is automatic.
-- find your Profile via the search bar.
+- OVERVIEW SHEET: find your Profile via the search bar.  
 - click the BUILD PROFILE button and follow prompts.
 - Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats and success.  
   
