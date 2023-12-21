@@ -35,10 +35,10 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
 
   <tr>
-    <th>Profiles & Builds (PROFILES sheet)</th>
+    <th>Profiles & Builds</th>
   </tr>
   <tr>
-    <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </br>
+    <td>Building a profile means: it subtracts the Profile components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </br>
         Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  
   </tr>
 
@@ -60,7 +60,7 @@ The search box can act like a file search, but can also trigger profile mode and
      <th>Console Monitor</th>
   </tr>
   <tr>
-    <td>Displays information, errors, and progress. Non-interactive.  </td>
+    <td>Displays information, errors, and progress.  </td>
   </tr>
 
   <tr>
@@ -98,7 +98,7 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
   <tr colspan="4">
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
-    <td>Open sheet, click Extensions -> AppsScript -> Add Trigger -> <br> Time: Time Driven daily <br>Function: logSheetsDaily()</td>
+    <td>Add trigger: Open sheet, click Extensions -> AppsScript -> Add Trigger -> <br> Time: Time Driven daily <br>Function: logSheetsDaily()</td>
     <td>Enter your items into your INVENTORY sheet (all info). <br>
         Create profile -> Enter item ID and amount on PROFILES sheet. </td>
   </tr>
@@ -137,7 +137,7 @@ The search box can act like a file search, but can also trigger profile mode and
     <th>Manual upkeep</th><th> </th><th> </th>
   </tr>
   <tr colspan="4">
-    <td>put new invoices into Folder > click inject order </td>
+    <td>put new invoice into Folder -> Invoice file rename: Invoice date -> click inject order </td>
     <td>use 'Build Profile' when building smtn that uses inventory components (for ex. a PCB)  </td>
     <td>remove individual items you use from Inventory, when not using 'Build Profile'  </td>
     </td>
@@ -195,7 +195,9 @@ Profile = a collection of Items   <br>
 Build = a 'built' Profile (removes items + logs)  <br>
 ( Project = a collection of Profiles ) tbc   <br>
 <br>
-- SheetSizeAuditTool must be installed as a library in Apps Script  <br>
+- Logging trigger has to be added after copying template <br>
+- invoice file names need to be a date (received date)
+- SheetSizeAuditTool must be installed as a library in Apps Script (will be copied over)  <br>
 - Invoice inject only works for LCSC and Mouser. <br>
 - There are some extra functions for creating profiles, but it is not 100% bug-free yet and might be making it too complicated to use.
 </p>
