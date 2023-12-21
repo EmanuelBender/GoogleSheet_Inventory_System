@@ -124,10 +124,9 @@ Build = a 'built' Profile (removes items, logs change, stats)  <br>
 
 <span>
 <b>Sheets:</b><br>
-OVERVIEW = Main hub for tasks. <br>
-&nbsp;&nbsp;  - Edit entries instantly on the INVENTORY sheet. <br>
-&nbsp;&nbsp;  - Create and build profiles on the PROFILES sheet. <br>
-&nbsp;&nbsp;  - Trigger builds and log actions on the BUILDS and LOGS sheets. <br>
+OVERVIEW = Main hub for search and tasks. <br>
+&nbsp;&nbsp;  - Edit search entries sheetwide. <br>
+&nbsp;&nbsp;  - Trigger build, shopping list and stats. <br>
 INVENTORY = Store all inventory items. <br>
 PROFILES = Store all profiles. <br>
 BUILDS = Log for built profiles. <br>
@@ -194,7 +193,6 @@ LOGS = Records changes and actions. Logging can be triggered.  <br>
 ### Disclaimer & Handicaps
 
 <p>
-<br>
 - if wanted: Daily logging trigger has to be added after copying template <br>
 - SheetSizeAuditTool must be installed as a library in Apps Script (will be copied with template)  <br>
 - user has to allow access <br>
