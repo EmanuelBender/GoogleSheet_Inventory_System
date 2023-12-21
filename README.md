@@ -32,8 +32,8 @@ The search box can act like a file search, but can also search profiles and othe
     <th>Profiles & Builds (PROFILES sheet)</th>
   </tr>
   <tr>
-    <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </td>
-  <td>Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  </td>
+    <td>Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats, and success.  </br>
+        Then adds the Build to the BUILDS sheet and a Log entry to LOGS.  
   </tr>
 
   <tr>
@@ -87,7 +87,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
       <th>Installation</th>
   </tr>
-  <tr>
+  <tr colspan="4">
     <td>Copy the template Inventory System Sheet into your Google Drive. (>>WIP, will paste here)  </td>
     <td>Enter items into your INVENTORY sheet (all info).  </td>
   </tr>
@@ -95,7 +95,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
       <th>Build Profile</th>
   </tr>
-  <tr>
+  <tr colspan="4">
     <td>Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet.  </td>
     <td>Find your Profile via the search bar.  </td>
     <td>Click the BUILD PROFILE button and follow prompts.   </td>
@@ -104,7 +104,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
      <th>Inject Invoice</th>
   </tr>
-  <tr>
+  <tr colspan="4">
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
     <td>Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')   </td>
     <td>Click inject Invoice on OVERVIEW sheet.  </td> 
@@ -114,7 +114,7 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
     <th>Shopping List</th>
   </tr>
-  <tr>
+  <tr colspan="4">
     <td>The list is created according to the following criteria: </td>  
     <td>Shopping list tick box and low inventory amount on each Item row.  </td>  
     <td>This is why we need to track our Builds and invoices, to have an accurate and automatic representation of the actual real-world items in our inventory.  </td>  
@@ -124,11 +124,11 @@ The search box can act like a file search, but can also search profiles and othe
   <tr>
     <th>Everyday Usage</th>
   </tr>
-  <tr>
-    <td>Keeping sheet updated:  <br>
-        put new invoices into Folder, trigger  <br>
-        use 'Build Profile' when building (for ex. a PCB)  <br>
-        remove individual items you use daily from Inventory, when not using 'Build Profile'  <br>
+  <tr colspan="4">
+    <td>Keeping sheet updated:  </td>
+    <td>put new invoices into Folder, trigger  </td>
+    <td>use 'Build Profile' when building (for ex. a PCB)  </td>
+    <td>remove individual items you use daily from Inventory, when not using 'Build Profile'  </td>
     </td>
   </tr>
 
