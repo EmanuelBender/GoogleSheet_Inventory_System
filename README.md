@@ -60,17 +60,14 @@ Create a profile by adding a header and entering ID and amount of each item on t
 Find your Profile via the search bar.  
 click the BUILD PROFILE button and follow prompts.  
 
-Shopping List:
-The list is created according to the following criteria:
-Shopping list tick box and low inventory amount on each Item row. If the amount in the actual inventory is too low it's on the list, if the tick box is activated.
-This is why we need to track our Builds as well, to have an accurate and almost automatic representation of the actual real world items in the inventory.
-
-
-
+Shopping List:  
+The list is created according to the following criteria:  
+Shopping list tick box and low inventory amount on each Item row. If the amount in the actual inventory is too low it's on the list, if the tick box is activated.  
+This is why we need to track our Builds as well, to have an accurate and almost automatic representation of the actual real world items in the inventory.  
 
 Inject Invoice:  
 Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button.  
-Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')
+Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')  
 Click inject Invoice on OVERVIEW sheet.  
 
 
