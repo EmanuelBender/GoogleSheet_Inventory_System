@@ -32,10 +32,17 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
 ### Key Features
 
 <span>
-Item = One Item with a unique ID   <br>
-Profile = a collection of Items   <br>
-Build = a 'built' Profile (removes items + logs)  <br>
+Item = one item with a unique ID   <br>
+Profile = a collection of items   <br>
+Build = a 'built' Profile (removes items, logs change, stats)  <br>
+<br>
+OVERVIEW = our main interaction sheet, most things can be done from here  <br>
+INVENTORY = all inventory items are stored here <br>
+PROFILES = all profiles are stored here <br>
+BUILDS = after a Profile is built, it gets logged here and on LOGS sheet <br>
+LOGS = logs any change or action plus can be triggered  <br>
 <!-- ( Project = a collection of Profiles )   <br> -->
+<br>
 </span>
 
 <table>
