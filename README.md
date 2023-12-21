@@ -8,7 +8,7 @@
 <a href="https://www.instagram.com/zen.diy/">Instagram</a><br>
 </p>
 
-<p size="11px">
+<p font-size="11px" align="center">
 It is aiming to keep the inventory system up to date while minimising user input.  <br>
 No external labelling needed if used correctly. (organisation always helps ofc) <br>
 I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things. <br>
@@ -46,7 +46,7 @@ The search box can act like a file search, but can also search profiles and othe
      <th>Sidebar (Shopping list or Stats)</th>
   </tr>
   <tr>
-    <td>A button on the nav bar will pull up the shopping list or the sheet stats sidebar.</td>
+    <td>Buttons on the nav bar will pull up the shopping list or the sheet stats sidebar.</td>
   </tr>
 </table>
 
@@ -85,7 +85,7 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 </table>
 
----
+<br>
 
 ### Getting Started
 
@@ -143,6 +143,8 @@ The search box can act like a file search, but can also search profiles and othe
   </tr>
 
 </table>
+
+<br>
 
 ---
 
