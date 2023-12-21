@@ -58,8 +58,8 @@ Provides total components, items, build profile components, and items with total
 Installation:  
 Copy the template Inventory System Sheet into your Google Drive.  
 Enter items into your inventory sheet.  
-Enter profiles on the build profiles sheet.  
-Create and add to your Invoices Folder  
+Enter profiles on the PROFILES sheet.  
+Create Invoice folder and add invoices into it.  
   
 Start inventoring!  
 
