@@ -9,7 +9,8 @@
 </p>
 
 <p align="center">
-It is aiming to keep the inventory system up to date while minimising manual upkeep.  <br>
+The goal is to have to use it as little as possible to make it work. I want to have as little hassle as possible maintaining it. <br>
+Also, after setup everything should be handled from the Overview sheet.  <br>
 Minimal external labelling is needed if used correctly. (organisation always helps ofc) <br>
 I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things. <br>
 </p>
