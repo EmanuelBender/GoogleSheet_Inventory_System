@@ -26,10 +26,7 @@ There are more fun features like a Stats and a Auto shopping list sidebar, auto 
 - Create a project by adding items with unique IDs and amounts from the INVENTORY sheet.
 - find your Profile via the search bar
 - click the BUILD PROFILE button and follow prompts
-- Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.
-  
-**Sheet Stats Sidebar:**
-- Generated via a button on the nav corner (top left).
+- Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.  
   
 **Automatic Shopping List:**
 - Generated via a button on the nav corner.  
@@ -39,15 +36,15 @@ Stats for the Whole Sheet:
 Provides total components, items, build profile components, and items with total prices.  
   
 **Console Monitor:**
-- Displays information, errors, and progress. Non-interactive.
+- Displays information, errors, and progress. Non-interactive.  
 **Daily Logging for Sheet Stats:**
-- Logged data includes various sheet metrics. Benefits include tracking changes and analyzing trends.
+- Logged data includes various sheet metrics. Benefits include tracking changes and analyzing trends.  
 **Toggle Groups:**
-- Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
+- Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.  
 **Extra Configuration:**
-- Extra functions for profiles (a collection of builds) are available but might be not bug-free.
-
-
+- Extra functions for profiles (a collection of builds) are available but might be not bug-free.  
+  
+  
 ## Getting Started
 Installation:  
 Copy the template Inventory System Sheet into your Google Drive.  
@@ -55,7 +52,8 @@ Enter items into your inventory sheet.
 Enter profiles on the build profiles sheet.  
 Create and add to your Invoices Folder  
   
-Start inventoring!
+Start inventoring!  
+
 
 ## License
 - Open source, CC with attribution.
