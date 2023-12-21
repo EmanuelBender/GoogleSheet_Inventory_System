@@ -18,7 +18,7 @@ Build = a 'built' Profile
   
 **Automatic Invoice Import:**
 - Supports Mouser & LCSC platforms.
-- Requirements: Create a folder in Google Drive (path in functions), place invoices inside, and trigger via the Inject Order button.
+- Requirements: Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button.  
   
 **Build Profile (PROFILES sheet):**
 - Create a profile by adding a header and entering ID and amount of each item. The rest is automatic.
@@ -45,7 +45,7 @@ Logged data includes various sheet metrics.
 Benefits include tracking changes and analyzing trends.
   
 **Toggle Groups:**  
-Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
+Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on sheet.
   
 **Misc:**  
 Extra functions for building Projects are available but might be not bug-free.  
@@ -59,6 +59,7 @@ Enter items into your INVENTORY sheet.
 Enter profiles on the PROFILES sheet.  
 Create Invoice folder and add invoices into it. Import Invoices. 
 Items have to exist in the INVENTORY sheet with the same ID as on the invoice to work. (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number')
+
 
 Start inventoring!  
 
