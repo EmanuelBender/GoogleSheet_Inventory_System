@@ -72,7 +72,7 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr>
     <td>Auto Shopping List: Low or marked items <br>
-        Sidebar: Stats and graphs for total items, costs, profiles, builds, ...
+        Stats: Statistics and graphs for total items, costs, profiles, builds, ...
 </td>
   </tr>
 </table>
@@ -91,25 +91,19 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
 
   <tr>
-    <th>Stats</th>
-  </tr>
-  <tr>
-    <td>Provides graphs and numbers of total components, items, build profile components, and items with total prices.</td>
-  </tr>
-
-  <tr>
-     <th>Daily Logging for Sheet Stats</th>
-  </tr>
-  <tr>
-    <td>Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.</td>
-  </tr>
-
-  <tr>
      <th>Toggle Groups</th>
   </tr>
   <tr>
     <td>There are groups on each sheet that can be expanded and closed with either a button on the OVERVIEW sheet or individually on the INVENTORY, BUILDS, etc. sheet.</td>
   </tr>
+
+  <tr>
+     <th>Daily Logging</th>
+  </tr>
+  <tr>
+    <td>Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.</td>
+  </tr>
+
 </table>
 
 <br>
