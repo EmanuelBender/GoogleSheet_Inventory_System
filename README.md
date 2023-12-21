@@ -5,16 +5,6 @@ by eBender
 
 An automatic inventory system for Google Sheets (Apps Script)  
   
-This is how it works: Items are entered into the INVENTORY Sheet with a unique ID.  
-This is the heart of the whole sheet.   
-The search box on the OVERVIEW sheet has multiple functions: Search, Profile Building.  
-PROFILES: You can enter a collection of items as a Profile. This profile can then be found  
-via the search bar and then be built via the Build PROFILE button.  
-'Building it' means the components get subtracted from the INVENTORY sheet,  
-and we get notified about price, stats or if an item is empty or not found.  
-Then the Build is saved on the BUILDS sheet.  
-You can check status and console messages on the OVERVIEW sheet.  
-There are more fun features like stats, auto shopping list sidebar, auto invoice import and more.  
 
 Item = One Item with unique ID  
 Profile = a collection of Items  
@@ -30,15 +20,17 @@ Build = a 'built' Profile
 - Supports Mouser & LCSC platforms.
 - Requirements: Create a folder in Google Drive (path in functions), place invoices inside, and trigger via the Inject Order button.
   
-**Build Project (PROJECT sheet):**
-- Create a project by adding items with unique IDs and amounts from the INVENTORY sheet.
-- find your Profile via the search bar
+**Build Profile (PROFILES sheet):**
+- Create a profile by adding items with unique ID and amount. The rest is automatic.
+- find your Profile via the search bar.
 - click the BUILD PROFILE button and follow prompts
 - Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.  
   
 **Automatic Shopping List:**
 - Generated via a button on the nav corner.  
 
+**Stats:**
+- Generated via a button on the nav corner.  
 
   
 ## Utility Features
