@@ -48,6 +48,10 @@ There are more fun features like a Stats and a Auto shopping list sidebar, auto 
 - **Toggle Groups:**
   - Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
 
+- **Extra Configuration:**
+  - Extra functions for profiles (a collection of builds) are available but might be not bug-free.
+
+
 ## Getting Started
 Installation:  
 Copy the template Inventory System Sheet into your Google Drive.  
@@ -56,10 +60,6 @@ Enter profiles on the build profiles sheet.
 Create and add to your Invoices Folder  
   
 Start inventoring!
-
-
-- **Configuration:**
-  - Extra functions for profiles (a collection of builds) are available but might be not bug-free.
 
 ## License
 - Open source, CC with attribution.
