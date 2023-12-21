@@ -40,16 +40,16 @@ There are more fun features like stats, auto shopping list sidebar, auto invoice
 Stats for the Whole Sheet:  
 Provides total components, items, build profile components, and items with total prices.  
   
-**Console Monitor:**
+**Console Monitor:**  
 Displays information, errors, and progress. Non-interactive.
   
-**Daily Logging for Sheet Stats:**
+**Daily Logging for Sheet Stats:**  
 Logged data includes various sheet metrics. Benefits include tracking changes and analyzing trends.
   
-**Toggle Groups:**
+**Toggle Groups:**  
 Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
   
-**Extra Configuration:**
+**Extra Configuration:**  
 Extra functions for profiles (a collection of builds) are available but might be not bug-free.
 
   
