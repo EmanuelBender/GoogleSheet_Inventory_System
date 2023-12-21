@@ -23,10 +23,11 @@ Build = a 'built' Profile
 - Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats and success. Then adds the Build to the BUILDS sheet and a Log entry to LOGS.
   
 **Automatic Shopping List:**
-- Generated via a button on the nav corner.  
+- Generated via a button on the nav corner.
+- Almost empty items are detected (enter your minimum inventory nr on item row)
 
 **Stats:**
-- Generated via a button on the nav corner.  
+- Costs, Amounts, Graphs, etc .. Generated via a button on the nav corner.  
 
   
 ## Utility Features
@@ -44,7 +45,7 @@ Benefits include tracking changes and analyzing trends.
 Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on sheet.
   
 **Misc:**  
-Multiples of the same item are possible with unique IDs (same item but different store, qty, config)  
+Multiples of the same item are possible with unique IDs (for similar items with different stores, qty, or config)  
 Feature: build Projects is available but might be not bug-free.  
 Feature: Check emails for orders, then import that order/invoice automatically once it has been received. (work in progress)  
 
@@ -58,6 +59,14 @@ Build Profile:
 Create a profile by adding a header and entering ID and amount of each item on the PROFILES sheet. The rest is automatic.  
 Find your Profile via the search bar.  
 click the BUILD PROFILE button and follow prompts.  
+
+Shopping List:
+The list is created according to the following criteria:
+Shopping list tick box and low inventory amount on each Item row. If the amount in the actual inventory is too low it's on the list, if the tick box is activated.
+This is why we need to track our Builds as well, to have an accurate and almost automatic representation of the actual real world items in the inventory.
+
+
+
 
 Inject Invoice:  
 Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button.  
