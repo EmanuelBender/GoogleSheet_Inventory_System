@@ -94,7 +94,7 @@ The search box can act like a file search, but can also trigger profile mode and
       <th>Step 1</th> <th>Step 2</th> <th>Step 3</th>
   </tr>
   <tr colspan="3">
-      <th>Copy sheet & enter Items</th>
+      <th colspan="3">Copy sheet & enter Items</th>
   </tr>
   <tr>
     <td>Copy the <a href="https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY">template Inventory Sheet</a> into your Google Drive.    </td>     
@@ -104,7 +104,7 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
 
   <tr colspan="3">
-      <th>Enter Profiles</th>
+      <th colspan="3">Enter Profiles</th>
   </tr>
   <tr>
     <td>Create a profile by adding a header (profile name) and entering only ID and amount of each item on the PROFILES sheet.  </td>
@@ -114,7 +114,7 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
 
   <tr colspan="3">
-     <th>Import Invoice Items</th>
+     <th colspan="3">Import Invoice Items</th>
   </tr>
   <tr>
     <td>Create a folder in Google Drive, enter folder name in Main Functions.js, place invoices inside, and trigger via the Inject Order button. </td>  
@@ -124,7 +124,7 @@ The search box can act like a file search, but can also trigger profile mode and
   </tr>
 
   <tr colspan="3">
-    <th>Shopping List</th>
+    <th colspan="3">Shopping List</th>
   </tr>
   <tr>
     <td>The list is created according to the following criteria: <br> Item amount, Low Inventory amount, Shopping tick box</td>  
@@ -134,7 +134,7 @@ The search box can act like a file search, but can also trigger profile mode and
 
 
   <tr colspan="3">
-    <th>Manual upkeep</th>
+    <th colspan="3">Manual upkeep</th>
   </tr>
   <tr colspan="3">
     <td>put new invoice into Folder -> Invoice file rename: Invoice date -> click inject order </td>
