@@ -9,10 +9,16 @@
 </p>
 
 <p align="center">
-The goal is to have to use it as little as possible to make it work. I want to have as little hassle as possible maintaining it. <br>
-Also, after setup everything should be handled from the Overview sheet.  <br>
-Minimal external labelling is needed if used correctly. (organisation always helps ofc) <br>
-I use it to organise my SMD items and PCB projects in conjunction with SMD containers, but it can be used for other things. <br>
+This project is designed with simplicity and minimal maintenance in mind. <br>
+The primary goal is to streamline usage, allowing you to interact with it as little as possible. <br>
+Once the initial setup is complete, all management tasks are efficiently handled through the Overview sheet.<br>
+<br>
+I personally employ this system for organizing Surface Mount Device (SMD) items and Printed Circuit Board (PCB) projects, <br>
+especially in conjunction with SMD containers. However, the flexibility of the structure <br>
+allows adaptation for various applications beyond this scope.<br>
+<br>
+Feel free to customize and explore how this project can best serve your organizational needs. <br>
+The intention is to provide a hassle-free and adaptable solution for efficient project management.
 </p>
 <br>
 <p align="center">
@@ -185,9 +191,9 @@ I use it to organise my SMD items and PCB projects in conjunction with SMD conta
 <p>
 OVERVIEW Sheet top right corner -> DEV overview (global variables, errors, settings) <br>
 - fn:  <br>
-- arm: sheet can be disarmed for testing ( all volatile actions deactivated ) <br>
-- grp:  <br>
-- errors: if cells have errors, they appear here <br>
+- arm:     sheet can be disarmed for testing ( all volatile actions deactivated ) <br>
+- grp:     used by code<br>
+- errors:  if cells have errors, they appear here <br>
 <br>
 <a href="https://docs.google.com/spreadsheets/d/1myUQEsA9oBNqigG8VdQnsoAnKoohFrl_wG5S7znHjAk/edit?usp=sharing">SheetSizeAuditTool</a>
 </p>
