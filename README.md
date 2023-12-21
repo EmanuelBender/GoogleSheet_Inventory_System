@@ -24,7 +24,7 @@ Build = a 'built' Profile
 - Create a profile by adding a header and entering ID and amount of each item. The rest is automatic.
 - OVERVIEW SHEET: find your Profile via the search bar.  
 - click the BUILD PROFILE button and follow prompts.
-- Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats and success.  
+- Building a profile means: it subtracts the components from the INVENTORY sheet and shows us a report on profile cost, stats and success. Then adds the Build to the BUILDS sheet and a Log entry to LOGS.
   
 **Automatic Shopping List:**
 - Generated via a button on the nav corner.  
