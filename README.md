@@ -4,7 +4,7 @@
 
 
 <p align="center" font-size="10px">A semi-automated inventory system for Google Sheets (Apps Script)<br>
-<b>⚠️ WIP - Functional ⚠️</b><br>
+<b>⚠️ This project is in development </b><br>
 <!-- <a href="https://www.instagram.com/zen.diy/">Instagram</a><br> -->
 </p>
 </br>
@@ -161,8 +161,8 @@ The intention is to provide a hassle-free and adaptable solution for efficient i
   </tr>
   <tr colspan="3">
     <td>put new invoice into Folder -> click inject order </td>
-    <td>manually remove individual items via search, when not using 'Build Profile'  </td>
-    <td>  </td>
+    <td>manually remove individual item amounts via search, when not using 'Build Profile'  </td>
+    <td>updating profiles  </td>
   </tr>
 </table>
 
