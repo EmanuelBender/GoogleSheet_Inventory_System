@@ -15,39 +15,33 @@ There are more fun features like a Stats and a Auto shopping list sidebar, auto 
   
 
 ## Key Features
-- Fast Keyword Search
-- The search box can act like a file search, but can also search profiles and other information.
-- BUILDS: support for Profiles. Items can easily be added vie ID and amount on PROFILES sheet. (will automatically be imported from Inventory Sheet)
-
+Fast Keyword Search
+The search box can act like a file search, but can also search profiles and other information.  
+Support for Build Profiles. Items can easily be added via ID and amount on PROFILES sheet. (the rest will automatically be imported from Inventory Sheet)  
+  
 **Automatic Invoice Import:**
 - Supports Mouser & LCSC platforms.
 - Requirements: Create a folder in Google Drive (path in functions), place invoices inside, and trigger via the Inject Order button.
-
 **Build Project (PROJECT sheet):**
 - Create a project by adding items with unique IDs and amounts from the INVENTORY sheet.
 - find your Profile via the search bar
 - click the BUILD PROFILE button and follow prompts
 - Building a profile means: it subtracts components from the INVENTORY sheet and shows us a report on project cost, stats and success.
-
 **Sheet Stats Sidebar:**
 - Generated via a button on the nav corner (top left).
-
 **Automatic Shopping List:**
 - Generated via a button on the nav corner.
 
 ## Utility Features
-- Stats for the Whole Sheet:
-- Provides total components, items, build profile components, and items with total prices.
-
+Stats for the Whole Sheet:  
+Provides total components, items, build profile components, and items with total prices.  
+  
 **Console Monitor:**
 - Displays information, errors, and progress. Non-interactive.
-
 **Daily Logging for Sheet Stats:**
 - Logged data includes various sheet metrics. Benefits include tracking changes and analyzing trends.
-
 **Toggle Groups:**
 - Groups on each sheet can be expanded or closed via buttons on the overview sheet or individually on inventory, builds, etc.
-
 **Extra Configuration:**
 - Extra functions for profiles (a collection of builds) are available but might be not bug-free.
 
