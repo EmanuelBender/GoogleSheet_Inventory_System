@@ -1,7 +1,8 @@
 # GoogleSheet Inventory System
 
-by eBender  
+by Emanuel Bender  
 ⚠️ Work in Progress - Functional  
+I use it for organizing SMD and PCB projects, but it can easily be customized.
 
 
 >[>> Template Inventory Sheet <<](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY)
