@@ -69,7 +69,8 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 2. **Create Profiles:**
    - On PROFILES add a header (profile name) and enter only ID and amount of each item.
    - On OVERVIEW enter your Profile name into the search bar to switch to Profile mode.
-   - Click the BUILD PROFILE button, follow prompts. Ready to physically assemble your profile using specified components.
+   - Click the BUILD PROFILE button, follow prompts. 
+   - You're ready to physically assemble your profile/build using specified components.
 
 3. **Import Invoice Items:**
    - Create a folder in Google Drive > specify invoice folder name in 'Main Functions.gs'.
