@@ -78,8 +78,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
    - Click the Inject Order button.
 
 4. **Shopping List:**
-   - Generate the list based on item amount, low inventory amount, and shopping tick box criteria.
-   - Set shopping tick box and low inventory amount for each item.
+   - Set shopping tick box and low inventory amount for each item via search or INVENTORY.
    - Click the Shopping List button to view your shopping list.
 
 ### Manual Upkeep:
