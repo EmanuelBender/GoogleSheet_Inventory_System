@@ -4,45 +4,23 @@
 
 A simplified Google Sheets inventory system designed for Surface Mount Device (SMD) and Printed Circuit Board (PCB) projects.
 
-⚠️ **Work in Progress - Functional** ⚠️
+⚠️ Work in Progress - Functional
 
-## Key Features
+## Overview  
 
-### Overview
-
-- **Main Interaction Sheet:** Perform most tasks from here.
-- **Inventory:** Store all items.
-- **Profiles:** Store all profiles.
-- **Builds:** Log built profiles, also recorded in the Logs sheet.
-- **Logs:** Record changes and actions; can be triggered.
-
-### Interaction Flow
-
-1. **Overview:**
-   - Main hub for tasks.
-   - Edit entries instantly on the Inventory sheet.
-   - Create and build profiles on the Profiles sheet.
-   - Trigger builds and log actions on the Builds and Logs sheets.
-
-2. **Inventory:**
-   - Contains all inventory items.
-
-3. **Profiles:**
-   - Stores all profiles.
-
-4. **Builds:**
-   - Logs built profiles.
-   - Corresponding entries in the Logs sheet.
-
-5. **Logs:**
-   - Records changes and actions.
-   - Triggered actions documented.
+**Locations**
+- **OVERVIEW:** Perform most tasks from here.
+- **INVENTORY:** Store all items.
+- **PROFILES:** Store all profiles.
+- **BUILDS:** Automatically stores built profiles.
+- **LOGS:** Record changes and actions; can be triggered.
+- **GoogleDrive/invoices_folder **
 
 ## Key Features
 
 - **Keyword Search:**
   - Powerful search box for item lookup.
-  - Custom search algorithm supports multiple partial keywords for comprehensive results.
+  - Custom search algorithm supports multiple partial keywords.
 
 - **Automatic Invoice Import:**
   - Supports Mouser & LCSC invoices as .csv files.
@@ -72,18 +50,9 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 - **Daily Logging:**
   - Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.
 
+
 ## Getting Started / How to:
 
-### Sheets:
-
-- **Overview:** Main hub for search and tasks.
-  - Edit search entries sheetwide.
-  - Trigger build, shopping list, and stats.
-
-- **Inventory:** Store all inventory items.
-- **Profiles:** Store all profiles.
-- **Builds:** Log for built profiles.
-- **Logs:** Records changes and actions. Logging can be triggered.
 
 ### Steps:
 
