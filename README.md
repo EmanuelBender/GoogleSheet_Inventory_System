@@ -101,10 +101,10 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 ## DEV
 
 > **Overview Sheet:** Top right corner > DEV overview (global variables, errors, settings).
-  >> fn:
-  >> arm: sheet can be disarmed for testing (all volatile actions deactivated).
-  >> grp: used by code.
-  >> errors: if cells have errors, they appear here.
+  - fn:
+  - arm: sheet can be disarmed for testing (all volatile actions deactivated).
+  - grp: used by code.
+  - errors: if cells have errors, they appear here.
 
 > [SheetSizeAuditTool](https://docs.google.com/spreadsheets/d/1myUQEsA9oBNqigG8VdQnsoAnKoohFrl_wG5S7znHjAk/edit?usp=sharing)
 
@@ -125,6 +125,10 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 
 - Guidelines: To be continued...
 
+### Credit
+
+Franklin Okech  
+[SheetSizeAuditTool](https://franklinokech.com)
 
 ## License
 
