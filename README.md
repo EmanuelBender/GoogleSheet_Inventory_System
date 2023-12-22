@@ -1,12 +1,13 @@
 # GoogleSheet SMD/PCB Inventory System
 
-by eBender
-⚠️ Work in Progress - Functional
+by eBender  
+⚠️ Work in Progress - Functional  
+
 
 A simplified Google Sheets inventory system designed for Surface Mount Device (SMD) and Printed Circuit Board (PCB) projects.
 
 
-[Template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY)
+>>[Template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY)<<
 
 ## Overview  
 
