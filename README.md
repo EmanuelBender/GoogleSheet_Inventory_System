@@ -19,7 +19,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 ## Key Features
 
 - **Keyword Search:**
-  - Powerful search box for item lookup.
+  - Powerful search box for item lookup and mode selection.
   - Custom search algorithm supports multiple partial keywords.
 
 - **Automatic Invoice Import:**
@@ -27,13 +27,12 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
   - Sheet auto-detects store, date, existing items, and adds new items into the sheet.
 
 - **Profiles & Builds:**
-  - Profile building subtracts components from the Inventory sheet, providing a cost, stats, and success report.
-  - Adds the Build to the Builds sheet with a corresponding Log entry in Logs.
+  - Profile building subtracts components from INVENTORY, providing a cost, stats, and report.
+  - Adds the Build to the BUILDS with a corresponding Log entry in Logs.
 
 - **Editing:**
-  - On the Overview sheet, edit any row entry from a current search, instantly updating the Inventory sheet.
-  - Profiles sheet requires only Amount and ID, speeding up the editing process.
-  - New items entered manually on the Inventory sheet can be efficiently updated via builds or invoices.
+  - On OVERVIEW, edit any row entry from a current search, instantly updating the INVENTORY.
+  - PROFILES only requires entry of Amount and ID, speeding up the profile making process.
 
 - **Sidebar (Shopping list or Stats):**
   - Shopping List: low or marked items.
@@ -42,7 +41,8 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 ## Utility Features
 
 - **Console Monitor:**
-  - Displays information, errors, and progress.
+  - Displays information, errors, and progress. 
+  - color indicators for arm and mode on top left corner of OVERVIEW.
 
 - **Toggle Groups:**
   - Groups on each sheet can be expanded and closed with either a button on the Overview sheet or individually on the Inventory, Builds, etc. sheet.
@@ -59,17 +59,17 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 1. **Copy Sheet & Enter Items:**
    - Copy the [template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY) to your Google Drive.
    - Add daily time-driven trigger: Extensions > AppsScript > Add Trigger > logSheetsDaily().
-   - Enter your items into your Inventory sheet, including all info.
+   - Enter your items into your Inventory sheet, including all info. (only once)
    - Create profiles by entering item ID and amount on the Profiles sheet.
 
 2. **Enter Profiles:**
    - Create a profile by adding a header (profile name) and entering only ID and amount of each item on the Profiles sheet.
-   - Enter your Profile name via the search bar to switch to Profile mode.
-   - Click the BUILD PROFILE button, follow prompts, and physically assemble your profile using specified components.
+   - On OVERVIEW enter your Profile name into the search bar to switch to Profile mode.
+   - Click the BUILD PROFILE button, follow prompts. Ready to physically assemble your profile using specified components.
 
 3. **Import Invoice Items:**
-   - Create a folder in Google Drive, specify folder name in 'Main Functions.gs'.
-   - Place invoices inside, and trigger via the Inject Order button.
+   - Create a folder in Google Drive > specify invoice folder name in 'Main Functions.gs'.
+   - Place invoices inside > trigger via the Inject Order button.
    - Ensure items exist in the Inventory sheet with matching IDs as on the invoice (Mouser: 'Mouser No:', LCSC: 'LCSC Part Number').
    - Click the Inject Order button.
 
@@ -107,6 +107,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 
 ## Future
 
+- detect invoice number, log it and check when importing new invoice.
 - Auto-detect and import Invoices from email.
 - Auto-detect new files in the Invoice folder > auto-convert Excel to CSV.
 - Detect more stores (only works with stores that have const product IDs).
