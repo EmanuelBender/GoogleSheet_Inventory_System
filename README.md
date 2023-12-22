@@ -14,7 +14,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 - **PROFILES:** Store all profiles.
 - **BUILDS:** Automatically stores built profiles.
 - **LOGS:** Record changes and actions; can be triggered.
-- **GoogleDrive/invoices_folder **
+- **GoogleDrive/invoices_folder**
 
 ## Key Features
 
@@ -51,8 +51,8 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
   - Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.
 
 
-## Getting Started / How to:
 
+## Getting Started / How to:
 
 ### Steps:
 
@@ -84,6 +84,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 - Manually remove individual item amounts via search when not using 'Build Profile'.
 - Updating profiles.
 
+
 ## Disclaimer & Handicaps
 
 - If wanted: Daily logging trigger has to be added after copying the template.
@@ -91,6 +92,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 - User has to allow access.
 - Invoice inject only works for LCSC and Mouser.
 - Some extra functions for creating profiles are not 100% bug-free yet and might be making it too complicated to use.
+
 
 ## DEV
 
@@ -102,6 +104,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 
 - [SheetSizeAuditTool](https://docs.google.com/spreadsheets/d/1myUQEsA9oBNqigG8VdQnsoAnKoohFrl_wG5S7znHjAk/edit?usp=sharing)
 
+
 ## Future
 
 - Auto-detect and import Invoices from email.
@@ -112,9 +115,11 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 - Data entry helper > new unknown items data entry prompt, multiple items at once > update and sort when done.
 - Projects: build a collection of Profiles (some parts already implemented, might take out).
 
+
 ## Contributing
 
 - Guidelines: To be continued...
+
 
 ## License
 
