@@ -100,7 +100,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 
 ## DEV
 
-> **Overview Sheet:** Top right corner > DEV overview (global variables, errors, settings).
+**Overview Sheet:** Top right corner > DEV overview (global variables, errors, settings).
   - fn:
   - arm: sheet can be disarmed for testing (all volatile actions deactivated).
   - grp: used by code.
