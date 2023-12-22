@@ -1,10 +1,10 @@
 # GoogleSheet SMD/PCB Inventory System
 
-**by eBender**
+by eBender
+⚠️ Work in Progress - Functional
 
 A simplified Google Sheets inventory system designed for Surface Mount Device (SMD) and Printed Circuit Board (PCB) projects.
 
-⚠️ Work in Progress - Functional
 
 [Template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY)
 
@@ -21,7 +21,7 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 ## Key Features
 
 - **Keyword Search:**
-  - Powerful search box for item lookup and mode selection.
+  - Multi-function search box for item lookup and mode selection.
   - Custom search algorithm supports multiple partial keywords.
 
 - **Automatic Invoice Import:**
@@ -29,8 +29,8 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
   - Sheet auto-detects store, date, existing items, and adds new items into the sheet.
 
 - **Profiles & Builds:**
-  - Profile building subtracts components from INVENTORY, providing a cost, stats, and report.
-  - Adds the Build to the BUILDS with a corresponding Log entry in Logs.
+  - Profile building subtracts components from INVENTORY, providing cost, stats, and report.
+  - Adds the built Profile to the BUILDS with a corresponding Log entry in LOGS.
 
 - **Editing:**
   - On OVERVIEW, edit any row entry from a current search, instantly updating the INVENTORY.
