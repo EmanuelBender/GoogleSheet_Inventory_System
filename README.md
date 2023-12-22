@@ -6,12 +6,14 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 
 ⚠️ Work in Progress - Functional
 
+[Template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY)
+
 ## Overview  
 
 **Locations**
 - **OVERVIEW:** Perform most tasks from here.
 - **INVENTORY:** Store all items.
-- **PROFILES:** Store all profiles.
+- **PROFILES:** Store all profiles. A profile is a collection of items.
 - **BUILDS:** Automatically stores built profiles.
 - **LOGS:** Record changes and actions; can be triggered.
 - **GoogleDrive/invoices_folder**
@@ -47,8 +49,9 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 - **Toggle Groups:**
   - Groups on each sheet can be expanded and closed with either a button on the Overview sheet or individually on the Inventory, Builds, etc. sheet.
 
-- **Daily Logging:**
+- **Logging:**
   - Logged data includes time, type/descriptor, function/area, sources, values changed, and various sheet metrics.
+  - can be triggered time-driven via sheet Triggers.
 
 
 
@@ -57,13 +60,13 @@ A simplified Google Sheets inventory system designed for Surface Mount Device (S
 ### Steps:
 
 1. **Copy Sheet & Enter Items:**
-   - Copy the [template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY) to your Google Drive.
+   - Copy the [Template Inventory Sheet](https://docs.google.com/spreadsheets/d/1COGIPqjvaSmpCLZWWQLtgucSimMKeokUlRZeDGTBkdY) to your Google Drive.
    - Add daily time-driven trigger: Extensions > AppsScript > Add Trigger > logSheetsDaily().
    - Enter your items into your Inventory sheet, including all info. (only once)
    - Create profiles by entering item ID and amount on the Profiles sheet.
 
-2. **Enter Profiles:**
-   - Create a profile by adding a header (profile name) and entering only ID and amount of each item on the Profiles sheet.
+2. **Create Profiles:**
+   - On PROFILES add a header (profile name) and enter only ID and amount of each item.
    - On OVERVIEW enter your Profile name into the search bar to switch to Profile mode.
    - Click the BUILD PROFILE button, follow prompts. Ready to physically assemble your profile using specified components.
 
