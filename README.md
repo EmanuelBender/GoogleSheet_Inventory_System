@@ -28,7 +28,7 @@ I use it for organizing SMD and PCB projects, but it can easily be customized.
   - Sheet auto-detects store, date, existing items, and adds new items into the sheet.
 
 - **Profiles & Builds:**
-  - Profile building subtracts components from INVENTORY, providing cost, stats, and report.
+  - Profile building subtracts items from INVENTORY; providing a cost and stats report.
   - Adds the built Profile to the BUILDS with a corresponding Log entry in LOGS.
 
 - **Editing:**
